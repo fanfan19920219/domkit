@@ -5,12 +5,17 @@
 //  Created by 智华张 on 2021/10/14.
 //
 
-#import "AppDelegate.h"
-#import "ViewController.h"
+
+
 #ifdef DEBUG
 #import <DoraemonKit/DoraemonManager.h>
 #endif
 
+
+
+#import "AppDelegate.h"
+#import "ViewController.h"
+#import "JLRoutes.h"
 
 @interface AppDelegate ()
 
@@ -26,26 +31,48 @@
     self.window.backgroundColor = [UIColor whiteColor];
 
     self.window.rootViewController = [[ViewController alloc] init];;
-    
     [self.window makeKeyAndVisible];
-    
     
     
     
 #ifdef DEBUG
     [[DoraemonManager shareInstance] addH5DoorBlock:^(NSString *h5Url) {
         //使用自己的H5容器打开这个链接
-        
     }];
     [[DoraemonManager shareInstance] install];
 #endif
 
     
     
+//    [[JLRoutes globalRoutes] addRoute:@"取url内容值的标识" handler:^BOOL(NSDictionary<NSString *,id> * _Nonnull parameters) {
+//
+//        return YES; // 一旦匹配，立即返回 YES
+//    }];
     
     
     return YES;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -67,3 +94,4 @@
 
 
 @end
+

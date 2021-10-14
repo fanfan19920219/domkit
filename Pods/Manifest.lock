@@ -32,9 +32,11 @@ PODS:
     - GCDWebServer/Core
   - GCDWebServer/WebUploader (3.5.4):
     - GCDWebServer/Core
+  - JLRoutes (2.1)
 
 DEPENDENCIES:
   - DoraemonKit
+  - JLRoutes
 
 SPEC REPOS:
   trunk:
@@ -42,13 +44,15 @@ SPEC REPOS:
     - DoraemonKit
     - FMDB
     - GCDWebServer
+    - JLRoutes
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   DoraemonKit: 6db7868ed839ad6752c2e4ac074f958aab211af2
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
+  JLRoutes: d755245322b94227662ea3e43492fdca94e05c5b
 
-PODFILE CHECKSUM: d049b69a606e8d0f80c7705698d289c66f58c60c
+PODFILE CHECKSUM: 6aa5f0c72b2eff398ad6ab68ece8a4576a88aa9b
 
 COCOAPODS: 1.10.1
