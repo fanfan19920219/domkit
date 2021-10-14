@@ -1,0 +1,6 @@
+framework module Pods_SassFramework_SassFrameworkUITests {
+  umbrella header "Pods-SassFramework-SassFrameworkUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
