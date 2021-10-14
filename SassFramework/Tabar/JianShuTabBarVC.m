@@ -12,6 +12,7 @@
 #import "TwoViewController.h"
 #import "ThreeViewController.h"
 #import "FourViewController.h"
+#import "SmallVideoListViewController.h"
 
 @interface JianShuTabBarVC ()<AxcAE_TabBarDelegate>
 
@@ -26,8 +27,9 @@
 }
 - (void)addChildViewControllers{
     // 创建选项卡的数据 想怎么写看自己，这块我就写笨点了
+    //SmallVideoListViewController *vc = [[SmallVideoListViewController alloc] init];
     NSArray <NSDictionary *>*VCArray =
-    @[@{@"vc":[OneViewController new],@"normalImg":@"icon_tabbar_home_no",@"selectImg":@"icon_tabbar_home",@"itemTitle":@"发现"},
+    @[@{@"vc":[SmallVideoListViewController new],@"normalImg":@"icon_tabbar_home_no",@"selectImg":@"icon_tabbar_home",@"itemTitle":@"发现"},
       @{@"vc":[TwoViewController new],@"normalImg":@"icon_tabbar_subscription_no",@"selectImg":@"icon_tabbar_subscription",@"itemTitle":@"关注"},
       @{@"vc":[UIViewController new],@"normalImg":@"",@"selectImg":@"",@"itemTitle":@" "},
       @{@"vc":[ThreeViewController new],@"normalImg":@"icon_tabbar_notification_no",@"selectImg":@"icon_tabbar_notification",@"itemTitle":@"消息"},
@@ -67,6 +69,10 @@
         // 示例中为了方便就在这写了
         UIViewController *vc = [obj objectForKey:@"vc"];
         
+//        if (idx == 0 ) { // 如果是中间的
+//            vc.navigationController.navigationBar.hidden = YES;
+//            vc.title = @"视频";
+//        }
         // 5.将VC添加到系统控制组
         [tabBarVCs addObject:vc];
         // 5.1添加构造Model到集合

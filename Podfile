@@ -14,6 +14,8 @@ target 'SassFramework' do
   pod 'JLRoutes'
   pod 'Masonry'
   pod 'RTRootNavigationController', '~> 0.8.0'
+  pod 'AvoidCrash', '~> 2.5.2'
+  pod 'Bugly', '~> 2.5.90'
   
   
 

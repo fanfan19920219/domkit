@@ -14,6 +14,7 @@
 
 
 #import "AppDelegate.h"
+#import "AppDelegate+config.h"
 #import "ViewController.h"
 #import "JLRoutes.h"
 #import "JianShuTabBarVC.h"
@@ -41,6 +42,9 @@
 #endif
 
     
+    //初始化avoidCrash
+    [self registAvoidCrash];
+    
     
 //    [[JLRoutes globalRoutes] addRoute:@"取url内容值的标识" handler:^BOOL(NSDictionary<NSString *,id> * _Nonnull parameters) {
 //
@@ -51,13 +55,13 @@
     if (@available(iOS 15.0, *)) {
            UINavigationBar *navigationBar = [UINavigationBar appearance];
            
-//           UINavigationBarAppearance *scrollEdgeAppearance = [[UINavigationBarAppearance alloc] init];
-////           scrollEdgeAppearance.backgroundColor = UIColor.redColor;
-//           navigationBar.scrollEdgeAppearance = scrollEdgeAppearance;
-//
-//           UINavigationBarAppearance *standardAppearance = [[UINavigationBarAppearance alloc] init];
-//           standardAppearance.backgroundColor = UIColor.greenColor;
-//           navigationBar.standardAppearance = standardAppearance;
+           UINavigationBarAppearance *scrollEdgeAppearance = [[UINavigationBarAppearance alloc] init];
+//           scrollEdgeAppearance.backgroundColor = UIColor.systemRedColor;
+           navigationBar.scrollEdgeAppearance = scrollEdgeAppearance;
+
+           UINavigationBarAppearance *standardAppearance = [[UINavigationBarAppearance alloc] init];
+           standardAppearance.backgroundColor = UIColor.clearColor;
+           navigationBar.standardAppearance = standardAppearance;
        }
     
     return YES;

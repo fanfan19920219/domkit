@@ -89,6 +89,9 @@ static  SourceType _sourceType = SourceTypeLaunchImage;
     [[XHLaunchAdDownloader sharedDownloader] downLoadVideoAndCacheWithURLArray:urlArray completed:completedBlock];
 }
 +(void)removeAndAnimated:(BOOL)animated{
+    
+    NSLog(@"移除广告'");
+    
     [[XHLaunchAd shareLaunchAd] removeAndAnimated:animated];
 }
 

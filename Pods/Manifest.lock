@@ -14,6 +14,8 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
+  - AvoidCrash (2.5.2)
+  - Bugly (2.5.90)
   - DoraemonKit (3.1.0):
     - DoraemonKit/Core (= 3.1.0)
   - DoraemonKit/Core (3.1.0):
@@ -39,6 +41,8 @@ PODS:
   - RTRootNavigationController/Core (0.8.0)
 
 DEPENDENCIES:
+  - AvoidCrash (~> 2.5.2)
+  - Bugly (~> 2.5.90)
   - DoraemonKit
   - JLRoutes
   - Masonry
@@ -47,6 +51,8 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - AFNetworking
+    - AvoidCrash
+    - Bugly
     - DoraemonKit
     - FMDB
     - GCDWebServer
@@ -56,6 +62,8 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  AvoidCrash: 28c6916fe19bd2b84126b8dec7cbe61c9a12741d
+  Bugly: 88bc32c0acc6fef7b74d610f0319ee7560d6b9fe
   DoraemonKit: 6db7868ed839ad6752c2e4ac074f958aab211af2
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
@@ -63,6 +71,6 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   RTRootNavigationController: 36c6301870f0467f89d69f4286795340b537d473
 
-PODFILE CHECKSUM: 937ea628b5dde91a2f466f460e84ff1ce53d0d37
+PODFILE CHECKSUM: 3cb13aa526030bbec0e38e6f03a1e6a9ee8097aa
 
 COCOAPODS: 1.10.1
