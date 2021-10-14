@@ -95,6 +95,7 @@
 		DCCB33AD271823B0009E7B1E /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB33AC271823B0009E7B1E /* TwoViewController.m */; };
 		DCCB33B0271823BC009E7B1E /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB33AF271823BB009E7B1E /* ThreeViewController.m */; };
 		DCCB33B3271823CA009E7B1E /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB33B2271823CA009E7B1E /* FourViewController.m */; };
+		DCCB33B627182FCC009E7B1E /* HunterTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB33B527182FCC009E7B1E /* HunterTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -282,6 +283,8 @@
 		DCCB33AF271823BB009E7B1E /* ThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
 		DCCB33B1271823CA009E7B1E /* FourViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
 		DCCB33B2271823CA009E7B1E /* FourViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		DCCB33B427182FCC009E7B1E /* HunterTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HunterTool.h; sourceTree = "<group>"; };
+		DCCB33B527182FCC009E7B1E /* HunterTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HunterTool.m; sourceTree = "<group>"; };
 		E163AB61F5D45B0D1DD60A07 /* Pods_SassFramework_SassFrameworkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SassFramework_SassFrameworkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -843,6 +846,8 @@
 				DCCB32E02717FEA4009E7B1E /* XHLaunchAdManager.m */,
 				DCCB335D2718128D009E7B1E /* TestTabBar.h */,
 				DCCB335E2718128D009E7B1E /* TestTabBar.m */,
+				DCCB33B427182FCC009E7B1E /* HunterTool.h */,
+				DCCB33B527182FCC009E7B1E /* HunterTool.m */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -1138,6 +1143,7 @@
 				DCCB33572718123F009E7B1E /* MultipleBulgeHybridTabBarVC.m in Sources */,
 				DCCB33902718157A009E7B1E /* UIAlertController+Block.m in Sources */,
 				DCCB33B3271823CA009E7B1E /* FourViewController.m in Sources */,
+				DCCB33B627182FCC009E7B1E /* HunterTool.m in Sources */,
 				DCCB338B2718157A009E7B1E /* UIButton+ContentLayout.m in Sources */,
 				DCCB335C2718123F009E7B1E /* HybridGradientHelperTabBarVC.m in Sources */,
 				DCCB338D2718157A009E7B1E /* UIView+Prompt.m in Sources */,

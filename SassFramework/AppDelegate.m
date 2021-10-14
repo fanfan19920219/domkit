@@ -25,16 +25,13 @@
 @implementation AppDelegate
 
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
 
-    self.window.rootViewController = [[BaseNavigationController alloc] initWithRootViewController:[JianShuTabBarVC new]];
+    self.window.rootViewController = [[BaseNavigationController alloc] initWithRootViewController:[[JianShuTabBarVC alloc]init]];
     [self.window makeKeyAndVisible];
-    
-    
     
 #ifdef DEBUG
     [[DoraemonManager shareInstance] addH5DoorBlock:^(NSString *h5Url) {
@@ -50,6 +47,18 @@
 //        return YES; // 一旦匹配，立即返回 YES
 //    }];
     
+    
+    if (@available(iOS 15.0, *)) {
+           UINavigationBar *navigationBar = [UINavigationBar appearance];
+           
+//           UINavigationBarAppearance *scrollEdgeAppearance = [[UINavigationBarAppearance alloc] init];
+////           scrollEdgeAppearance.backgroundColor = UIColor.redColor;
+//           navigationBar.scrollEdgeAppearance = scrollEdgeAppearance;
+//
+//           UINavigationBarAppearance *standardAppearance = [[UINavigationBarAppearance alloc] init];
+//           standardAppearance.backgroundColor = UIColor.greenColor;
+//           navigationBar.standardAppearance = standardAppearance;
+       }
     
     return YES;
 }
