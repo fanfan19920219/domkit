@@ -19,6 +19,29 @@
 		DCCB32712717BF46009E7B1E /* SassFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB32702717BF46009E7B1E /* SassFrameworkTests.m */; };
 		DCCB327B2717BF47009E7B1E /* SassFrameworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB327A2717BF47009E7B1E /* SassFrameworkUITests.m */; };
 		DCCB327D2717BF47009E7B1E /* SassFrameworkUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB327C2717BF47009E7B1E /* SassFrameworkUITestsLaunchTests.m */; };
+		DCCB32A72717FDA4009E7B1E /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB328C2717FDA4009E7B1E /* FLAnimatedImage.m */; };
+		DCCB32A82717FDA4009E7B1E /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB328D2717FDA4009E7B1E /* FLAnimatedImageView.m */; };
+		DCCB32A92717FDA4009E7B1E /* XHLaunchAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB32942717FDA4009E7B1E /* XHLaunchAdView.m */; };
+		DCCB32AA2717FDA4009E7B1E /* XHLaunchAdButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB32972717FDA4009E7B1E /* XHLaunchAdButton.m */; };
+		DCCB32AB2717FDA4009E7B1E /* XHLaunchImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB32992717FDA4009E7B1E /* XHLaunchImageView.m */; };
+		DCCB32AC2717FDA4009E7B1E /* XHLaunchAdConst.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB329A2717FDA4009E7B1E /* XHLaunchAdConst.m */; };
+		DCCB32AD2717FDA4009E7B1E /* XHLaunchAd.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB329C2717FDA4009E7B1E /* XHLaunchAd.m */; };
+		DCCB32AE2717FDA4009E7B1E /* XHLaunchAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB329D2717FDA4009E7B1E /* XHLaunchAdController.m */; };
+		DCCB32AF2717FDA4009E7B1E /* XHLaunchAdDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB329E2717FDA4009E7B1E /* XHLaunchAdDownloader.m */; };
+		DCCB32B02717FDA4009E7B1E /* XHLaunchAdImageView+XHLaunchAdCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB32A02717FDA4009E7B1E /* XHLaunchAdImageView+XHLaunchAdCache.m */; };
+		DCCB32B12717FDA4009E7B1E /* XHLaunchAdConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB32A12717FDA4009E7B1E /* XHLaunchAdConfiguration.m */; };
+		DCCB32B22717FDA4009E7B1E /* XHLaunchAdCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB32A32717FDA4009E7B1E /* XHLaunchAdCache.m */; };
+		DCCB32B32717FDA4009E7B1E /* XHLaunchAdImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB32A52717FDA4009E7B1E /* XHLaunchAdImageManager.m */; };
+		DCCB32CF2717FDBD009E7B1E /* LaunchVideoAd.json in Resources */ = {isa = PBXBuildFile; fileRef = DCCB32B52717FDBD009E7B1E /* LaunchVideoAd.json */; };
+		DCCB32D02717FDBD009E7B1E /* video0.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DCCB32B62717FDBD009E7B1E /* video0.mp4 */; };
+		DCCB32D12717FDBD009E7B1E /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DCCB32B72717FDBD009E7B1E /* video1.mp4 */; };
+		DCCB32D22717FDBD009E7B1E /* LaunchImageAd.json in Resources */ = {isa = PBXBuildFile; fileRef = DCCB32B82717FDBD009E7B1E /* LaunchImageAd.json */; };
+		DCCB32D32717FDBD009E7B1E /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCCB32B92717FDBD009E7B1E /* image4.jpg */; };
+		DCCB32D42717FDBD009E7B1E /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCCB32BA2717FDBD009E7B1E /* image1.jpg */; };
+		DCCB32D52717FDBD009E7B1E /* image12.gif in Resources */ = {isa = PBXBuildFile; fileRef = DCCB32BB2717FDBD009E7B1E /* image12.gif */; };
+		DCCB32D62717FDBD009E7B1E /* image0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCCB32BC2717FDBD009E7B1E /* image0.jpg */; };
+		DCCB32D72717FDBD009E7B1E /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCCB32BD2717FDBD009E7B1E /* image2.jpg */; };
+		DCCB32D82717FDBD009E7B1E /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCCB32BE2717FDBD009E7B1E /* image3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +85,42 @@
 		DCCB32762717BF46009E7B1E /* SassFrameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SassFrameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCCB327A2717BF47009E7B1E /* SassFrameworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SassFrameworkUITests.m; sourceTree = "<group>"; };
 		DCCB327C2717BF47009E7B1E /* SassFrameworkUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SassFrameworkUITestsLaunchTests.m; sourceTree = "<group>"; };
+		DCCB328C2717FDA4009E7B1E /* FLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImage.m; sourceTree = "<group>"; };
+		DCCB328D2717FDA4009E7B1E /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImageView.m; sourceTree = "<group>"; };
+		DCCB328E2717FDA4009E7B1E /* FLAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImage.h; sourceTree = "<group>"; };
+		DCCB328F2717FDA4009E7B1E /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImageView.h; sourceTree = "<group>"; };
+		DCCB32912717FDA4009E7B1E /* XHLaunchAdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdController.h; sourceTree = "<group>"; };
+		DCCB32922717FDA4009E7B1E /* XHLaunchAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAd.h; sourceTree = "<group>"; };
+		DCCB32932717FDA4009E7B1E /* XHLaunchAdDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdDownloader.h; sourceTree = "<group>"; };
+		DCCB32942717FDA4009E7B1E /* XHLaunchAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdView.m; sourceTree = "<group>"; };
+		DCCB32952717FDA4009E7B1E /* XHLaunchAdCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdCache.h; sourceTree = "<group>"; };
+		DCCB32962717FDA4009E7B1E /* XHLaunchAdConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdConfiguration.h; sourceTree = "<group>"; };
+		DCCB32972717FDA4009E7B1E /* XHLaunchAdButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdButton.m; sourceTree = "<group>"; };
+		DCCB32982717FDA4009E7B1E /* XHLaunchAdImageView+XHLaunchAdCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XHLaunchAdImageView+XHLaunchAdCache.h"; sourceTree = "<group>"; };
+		DCCB32992717FDA4009E7B1E /* XHLaunchImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchImageView.m; sourceTree = "<group>"; };
+		DCCB329A2717FDA4009E7B1E /* XHLaunchAdConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdConst.m; sourceTree = "<group>"; };
+		DCCB329B2717FDA4009E7B1E /* XHLaunchAdImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdImageManager.h; sourceTree = "<group>"; };
+		DCCB329C2717FDA4009E7B1E /* XHLaunchAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAd.m; sourceTree = "<group>"; };
+		DCCB329D2717FDA4009E7B1E /* XHLaunchAdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdController.m; sourceTree = "<group>"; };
+		DCCB329E2717FDA4009E7B1E /* XHLaunchAdDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdDownloader.m; sourceTree = "<group>"; };
+		DCCB329F2717FDA4009E7B1E /* XHLaunchImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchImageView.h; sourceTree = "<group>"; };
+		DCCB32A02717FDA4009E7B1E /* XHLaunchAdImageView+XHLaunchAdCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XHLaunchAdImageView+XHLaunchAdCache.m"; sourceTree = "<group>"; };
+		DCCB32A12717FDA4009E7B1E /* XHLaunchAdConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdConfiguration.m; sourceTree = "<group>"; };
+		DCCB32A22717FDA4009E7B1E /* XHLaunchAdButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdButton.h; sourceTree = "<group>"; };
+		DCCB32A32717FDA4009E7B1E /* XHLaunchAdCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdCache.m; sourceTree = "<group>"; };
+		DCCB32A42717FDA4009E7B1E /* XHLaunchAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdView.h; sourceTree = "<group>"; };
+		DCCB32A52717FDA4009E7B1E /* XHLaunchAdImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdImageManager.m; sourceTree = "<group>"; };
+		DCCB32A62717FDA4009E7B1E /* XHLaunchAdConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdConst.h; sourceTree = "<group>"; };
+		DCCB32B52717FDBD009E7B1E /* LaunchVideoAd.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LaunchVideoAd.json; sourceTree = "<group>"; };
+		DCCB32B62717FDBD009E7B1E /* video0.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video0.mp4; sourceTree = "<group>"; };
+		DCCB32B72717FDBD009E7B1E /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
+		DCCB32B82717FDBD009E7B1E /* LaunchImageAd.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LaunchImageAd.json; sourceTree = "<group>"; };
+		DCCB32B92717FDBD009E7B1E /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpg; sourceTree = "<group>"; };
+		DCCB32BA2717FDBD009E7B1E /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		DCCB32BB2717FDBD009E7B1E /* image12.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = image12.gif; sourceTree = "<group>"; };
+		DCCB32BC2717FDBD009E7B1E /* image0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image0.jpg; sourceTree = "<group>"; };
+		DCCB32BD2717FDBD009E7B1E /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		DCCB32BE2717FDBD009E7B1E /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
 		E163AB61F5D45B0D1DD60A07 /* Pods_SassFramework_SassFrameworkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SassFramework_SassFrameworkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -119,6 +178,8 @@
 		DCCB32482717BF45009E7B1E = {
 			isa = PBXGroup;
 			children = (
+				DCCB32B42717FDBD009E7B1E /* Source */,
+				DCCB32892717FDA4009E7B1E /* XHLaunchAd */,
 				DCCB32532717BF45009E7B1E /* SassFramework */,
 				DCCB326F2717BF46009E7B1E /* SassFrameworkTests */,
 				DCCB32792717BF47009E7B1E /* SassFrameworkUITests */,
@@ -169,6 +230,80 @@
 				DCCB327C2717BF47009E7B1E /* SassFrameworkUITestsLaunchTests.m */,
 			);
 			path = SassFrameworkUITests;
+			sourceTree = "<group>";
+		};
+		DCCB32892717FDA4009E7B1E /* XHLaunchAd */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB328A2717FDA4009E7B1E /* Lib */,
+				DCCB32902717FDA4009E7B1E /* XHLaunchAd */,
+			);
+			path = XHLaunchAd;
+			sourceTree = "<group>";
+		};
+		DCCB328A2717FDA4009E7B1E /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB328B2717FDA4009E7B1E /* FLAnimatedImage */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		DCCB328B2717FDA4009E7B1E /* FLAnimatedImage */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB328C2717FDA4009E7B1E /* FLAnimatedImage.m */,
+				DCCB328D2717FDA4009E7B1E /* FLAnimatedImageView.m */,
+				DCCB328E2717FDA4009E7B1E /* FLAnimatedImage.h */,
+				DCCB328F2717FDA4009E7B1E /* FLAnimatedImageView.h */,
+			);
+			path = FLAnimatedImage;
+			sourceTree = "<group>";
+		};
+		DCCB32902717FDA4009E7B1E /* XHLaunchAd */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB32912717FDA4009E7B1E /* XHLaunchAdController.h */,
+				DCCB32922717FDA4009E7B1E /* XHLaunchAd.h */,
+				DCCB32932717FDA4009E7B1E /* XHLaunchAdDownloader.h */,
+				DCCB32942717FDA4009E7B1E /* XHLaunchAdView.m */,
+				DCCB32952717FDA4009E7B1E /* XHLaunchAdCache.h */,
+				DCCB32962717FDA4009E7B1E /* XHLaunchAdConfiguration.h */,
+				DCCB32972717FDA4009E7B1E /* XHLaunchAdButton.m */,
+				DCCB32982717FDA4009E7B1E /* XHLaunchAdImageView+XHLaunchAdCache.h */,
+				DCCB32992717FDA4009E7B1E /* XHLaunchImageView.m */,
+				DCCB329A2717FDA4009E7B1E /* XHLaunchAdConst.m */,
+				DCCB329B2717FDA4009E7B1E /* XHLaunchAdImageManager.h */,
+				DCCB329C2717FDA4009E7B1E /* XHLaunchAd.m */,
+				DCCB329D2717FDA4009E7B1E /* XHLaunchAdController.m */,
+				DCCB329E2717FDA4009E7B1E /* XHLaunchAdDownloader.m */,
+				DCCB329F2717FDA4009E7B1E /* XHLaunchImageView.h */,
+				DCCB32A02717FDA4009E7B1E /* XHLaunchAdImageView+XHLaunchAdCache.m */,
+				DCCB32A12717FDA4009E7B1E /* XHLaunchAdConfiguration.m */,
+				DCCB32A22717FDA4009E7B1E /* XHLaunchAdButton.h */,
+				DCCB32A32717FDA4009E7B1E /* XHLaunchAdCache.m */,
+				DCCB32A42717FDA4009E7B1E /* XHLaunchAdView.h */,
+				DCCB32A52717FDA4009E7B1E /* XHLaunchAdImageManager.m */,
+				DCCB32A62717FDA4009E7B1E /* XHLaunchAdConst.h */,
+			);
+			path = XHLaunchAd;
+			sourceTree = "<group>";
+		};
+		DCCB32B42717FDBD009E7B1E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB32B52717FDBD009E7B1E /* LaunchVideoAd.json */,
+				DCCB32B62717FDBD009E7B1E /* video0.mp4 */,
+				DCCB32B72717FDBD009E7B1E /* video1.mp4 */,
+				DCCB32B82717FDBD009E7B1E /* LaunchImageAd.json */,
+				DCCB32B92717FDBD009E7B1E /* image4.jpg */,
+				DCCB32BA2717FDBD009E7B1E /* image1.jpg */,
+				DCCB32BB2717FDBD009E7B1E /* image12.gif */,
+				DCCB32BC2717FDBD009E7B1E /* image0.jpg */,
+				DCCB32BD2717FDBD009E7B1E /* image2.jpg */,
+				DCCB32BE2717FDBD009E7B1E /* image3.jpg */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,9 +414,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCCB32D82717FDBD009E7B1E /* image3.jpg in Resources */,
+				DCCB32D32717FDBD009E7B1E /* image4.jpg in Resources */,
 				DCCB32642717BF46009E7B1E /* LaunchScreen.storyboard in Resources */,
+				DCCB32CF2717FDBD009E7B1E /* LaunchVideoAd.json in Resources */,
+				DCCB32D52717FDBD009E7B1E /* image12.gif in Resources */,
 				DCCB32612717BF46009E7B1E /* Assets.xcassets in Resources */,
+				DCCB32D12717FDBD009E7B1E /* video1.mp4 in Resources */,
+				DCCB32D02717FDBD009E7B1E /* video0.mp4 in Resources */,
+				DCCB32D22717FDBD009E7B1E /* LaunchImageAd.json in Resources */,
 				DCCB325F2717BF45009E7B1E /* Main.storyboard in Resources */,
+				DCCB32D42717FDBD009E7B1E /* image1.jpg in Resources */,
+				DCCB32D72717FDBD009E7B1E /* image2.jpg in Resources */,
+				DCCB32D62717FDBD009E7B1E /* image0.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,9 +554,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCCB32B12717FDA4009E7B1E /* XHLaunchAdConfiguration.m in Sources */,
+				DCCB32B32717FDA4009E7B1E /* XHLaunchAdImageManager.m in Sources */,
+				DCCB32B02717FDA4009E7B1E /* XHLaunchAdImageView+XHLaunchAdCache.m in Sources */,
+				DCCB32AA2717FDA4009E7B1E /* XHLaunchAdButton.m in Sources */,
+				DCCB32A72717FDA4009E7B1E /* FLAnimatedImage.m in Sources */,
+				DCCB32AC2717FDA4009E7B1E /* XHLaunchAdConst.m in Sources */,
+				DCCB32AE2717FDA4009E7B1E /* XHLaunchAdController.m in Sources */,
+				DCCB32AF2717FDA4009E7B1E /* XHLaunchAdDownloader.m in Sources */,
 				DCCB325C2717BF45009E7B1E /* ViewController.m in Sources */,
+				DCCB32B22717FDA4009E7B1E /* XHLaunchAdCache.m in Sources */,
+				DCCB32A82717FDA4009E7B1E /* FLAnimatedImageView.m in Sources */,
 				DCCB32562717BF45009E7B1E /* AppDelegate.m in Sources */,
+				DCCB32A92717FDA4009E7B1E /* XHLaunchAdView.m in Sources */,
+				DCCB32AD2717FDA4009E7B1E /* XHLaunchAd.m in Sources */,
 				DCCB32672717BF46009E7B1E /* main.m in Sources */,
+				DCCB32AB2717FDA4009E7B1E /* XHLaunchImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
