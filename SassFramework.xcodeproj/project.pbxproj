@@ -350,6 +350,8 @@
 			isa = PBXGroup;
 			children = (
 				DCCB33A527181BEB009E7B1E /* PrefixHeader.pch */,
+				DCCB33A727181ED4009E7B1E /* Lib */,
+				DCCB33A627181EB7009E7B1E /* Tabar */,
 				DCCB33742718157A009E7B1E /* Category */,
 				DCCB3364271814F8009E7B1E /* Base */,
 				DCCB3360271812F2009E7B1E /* WHGradientHelper */,
@@ -361,12 +363,6 @@
 				DCCB32552717BF45009E7B1E /* AppDelegate.m */,
 				DCCB325A2717BF45009E7B1E /* ViewController.h */,
 				DCCB325B2717BF45009E7B1E /* ViewController.m */,
-				DCCB32DF2717FEA3009E7B1E /* XHLaunchAdManager.h */,
-				DCCB32E02717FEA4009E7B1E /* XHLaunchAdManager.m */,
-				DCCB32FE27181213009E7B1E /* JianShuTabBarVC.h */,
-				DCCB32FD27181213009E7B1E /* JianShuTabBarVC.m */,
-				DCCB335D2718128D009E7B1E /* TestTabBar.h */,
-				DCCB335E2718128D009E7B1E /* TestTabBar.m */,
 				DCCB325D2717BF45009E7B1E /* Main.storyboard */,
 				DCCB32602717BF46009E7B1E /* Assets.xcassets */,
 				DCCB32622717BF46009E7B1E /* LaunchScreen.storyboard */,
@@ -809,6 +805,26 @@
 				DCCB338A2718157A009E7B1E /* UIAlertController+Block.h */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		DCCB33A627181EB7009E7B1E /* Tabar */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB32FE27181213009E7B1E /* JianShuTabBarVC.h */,
+				DCCB32FD27181213009E7B1E /* JianShuTabBarVC.m */,
+			);
+			path = Tabar;
+			sourceTree = "<group>";
+		};
+		DCCB33A727181ED4009E7B1E /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB32DF2717FEA3009E7B1E /* XHLaunchAdManager.h */,
+				DCCB32E02717FEA4009E7B1E /* XHLaunchAdManager.m */,
+				DCCB335D2718128D009E7B1E /* TestTabBar.h */,
+				DCCB335E2718128D009E7B1E /* TestTabBar.m */,
+			);
+			path = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
