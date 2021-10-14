@@ -8,6 +8,11 @@
 
 #import "JianShuTabBarVC.h"
 
+#import "OneViewController.h"
+#import "TwoViewController.h"
+#import "ThreeViewController.h"
+#import "FourViewController.h"
+
 @interface JianShuTabBarVC ()<AxcAE_TabBarDelegate>
 
 @end
@@ -22,11 +27,11 @@
 - (void)addChildViewControllers{
     // 创建选项卡的数据 想怎么写看自己，这块我就写笨点了
     NSArray <NSDictionary *>*VCArray =
-    @[@{@"vc":[UIViewController new],@"normalImg":@"icon_tabbar_home_no",@"selectImg":@"icon_tabbar_home",@"itemTitle":@"发现"},
-      @{@"vc":[UIViewController new],@"normalImg":@"icon_tabbar_subscription_no",@"selectImg":@"icon_tabbar_subscription",@"itemTitle":@"关注"},
+    @[@{@"vc":[OneViewController new],@"normalImg":@"icon_tabbar_home_no",@"selectImg":@"icon_tabbar_home",@"itemTitle":@"发现"},
+      @{@"vc":[TwoViewController new],@"normalImg":@"icon_tabbar_subscription_no",@"selectImg":@"icon_tabbar_subscription",@"itemTitle":@"关注"},
       @{@"vc":[UIViewController new],@"normalImg":@"",@"selectImg":@"",@"itemTitle":@" "},
-      @{@"vc":[UIViewController new],@"normalImg":@"icon_tabbar_notification_no",@"selectImg":@"icon_tabbar_notification",@"itemTitle":@"消息"},
-      @{@"vc":[UIViewController new],@"normalImg":@"icon_tabbar_me_no",@"selectImg":@"icon_tabbar_me",@"itemTitle":@"我的"}];
+      @{@"vc":[ThreeViewController new],@"normalImg":@"icon_tabbar_notification_no",@"selectImg":@"icon_tabbar_notification",@"itemTitle":@"消息"},
+      @{@"vc":[FourViewController new],@"normalImg":@"icon_tabbar_me_no",@"selectImg":@"icon_tabbar_me",@"itemTitle":@"我的"}];
     // 1.遍历这个集合
     // 1.1 设置一个保存构造器的数组
     NSMutableArray *tabBarConfs = @[].mutableCopy;
@@ -61,9 +66,7 @@
         // 备注 如果一步设置的VC的背景颜色，VC就会提前绘制驻留，优化这方面的话最好不要这么写
         // 示例中为了方便就在这写了
         UIViewController *vc = [obj objectForKey:@"vc"];
-        vc.view.backgroundColor = [UIColor colorWithRed:arc4random()%255/255.f
-                                                  green:arc4random()%255/255.f
-                                                   blue:arc4random()%255/255.f alpha:1];
+        
         // 5.将VC添加到系统控制组
         [tabBarVCs addObject:vc];
         // 5.1添加构造Model到集合

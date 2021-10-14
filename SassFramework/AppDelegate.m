@@ -31,7 +31,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
 
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[JianShuTabBarVC new]];
+    self.window.rootViewController = [[BaseNavigationController alloc] initWithRootViewController:[JianShuTabBarVC new]];
     [self.window makeKeyAndVisible];
     
     
