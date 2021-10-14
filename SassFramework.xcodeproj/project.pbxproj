@@ -42,6 +42,11 @@
 		DCCB32D62717FDBD009E7B1E /* image0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCCB32BC2717FDBD009E7B1E /* image0.jpg */; };
 		DCCB32D72717FDBD009E7B1E /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCCB32BD2717FDBD009E7B1E /* image2.jpg */; };
 		DCCB32D82717FDBD009E7B1E /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCCB32BE2717FDBD009E7B1E /* image3.jpg */; };
+		DCCB32E12717FEA4009E7B1E /* XHLaunchAdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB32E02717FEA4009E7B1E /* XHLaunchAdManager.m */; };
+		DCCB32EE2717FF9D009E7B1E /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB32E32717FF9D009E7B1E /* WebViewController.m */; };
+		DCCB32EF2717FF9D009E7B1E /* LaunchAdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB32E62717FF9D009E7B1E /* LaunchAdModel.m */; };
+		DCCB32F02717FF9D009E7B1E /* Network.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB32E92717FF9D009E7B1E /* Network.m */; };
+		DCCB32F12717FF9D009E7B1E /* UIViewController+Nav.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB32ED2717FF9D009E7B1E /* UIViewController+Nav.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +126,16 @@
 		DCCB32BC2717FDBD009E7B1E /* image0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image0.jpg; sourceTree = "<group>"; };
 		DCCB32BD2717FDBD009E7B1E /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
 		DCCB32BE2717FDBD009E7B1E /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		DCCB32DF2717FEA3009E7B1E /* XHLaunchAdManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdManager.h; sourceTree = "<group>"; };
+		DCCB32E02717FEA4009E7B1E /* XHLaunchAdManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdManager.m; sourceTree = "<group>"; };
+		DCCB32E22717FF9D009E7B1E /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		DCCB32E32717FF9D009E7B1E /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		DCCB32E52717FF9D009E7B1E /* LaunchAdModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchAdModel.h; sourceTree = "<group>"; };
+		DCCB32E62717FF9D009E7B1E /* LaunchAdModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchAdModel.m; sourceTree = "<group>"; };
+		DCCB32E92717FF9D009E7B1E /* Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Network.m; sourceTree = "<group>"; };
+		DCCB32EA2717FF9D009E7B1E /* Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Network.h; sourceTree = "<group>"; };
+		DCCB32EC2717FF9D009E7B1E /* UIViewController+Nav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Nav.h"; sourceTree = "<group>"; };
+		DCCB32ED2717FF9D009E7B1E /* UIViewController+Nav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Nav.m"; sourceTree = "<group>"; };
 		E163AB61F5D45B0D1DD60A07 /* Pods_SassFramework_SassFrameworkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SassFramework_SassFrameworkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -178,8 +193,6 @@
 		DCCB32482717BF45009E7B1E = {
 			isa = PBXGroup;
 			children = (
-				DCCB32B42717FDBD009E7B1E /* Source */,
-				DCCB32892717FDA4009E7B1E /* XHLaunchAd */,
 				DCCB32532717BF45009E7B1E /* SassFramework */,
 				DCCB326F2717BF46009E7B1E /* SassFrameworkTests */,
 				DCCB32792717BF47009E7B1E /* SassFrameworkUITests */,
@@ -202,10 +215,14 @@
 		DCCB32532717BF45009E7B1E /* SassFramework */ = {
 			isa = PBXGroup;
 			children = (
+				DCCB32B42717FDBD009E7B1E /* Source */,
+				DCCB32892717FDA4009E7B1E /* XHLaunchAd */,
 				DCCB32542717BF45009E7B1E /* AppDelegate.h */,
 				DCCB32552717BF45009E7B1E /* AppDelegate.m */,
 				DCCB325A2717BF45009E7B1E /* ViewController.h */,
 				DCCB325B2717BF45009E7B1E /* ViewController.m */,
+				DCCB32DF2717FEA3009E7B1E /* XHLaunchAdManager.h */,
+				DCCB32E02717FEA4009E7B1E /* XHLaunchAdManager.m */,
 				DCCB325D2717BF45009E7B1E /* Main.storyboard */,
 				DCCB32602717BF46009E7B1E /* Assets.xcassets */,
 				DCCB32622717BF46009E7B1E /* LaunchScreen.storyboard */,
@@ -235,6 +252,10 @@
 		DCCB32892717FDA4009E7B1E /* XHLaunchAd */ = {
 			isa = PBXGroup;
 			children = (
+				DCCB32E42717FF9D009E7B1E /* Model */,
+				DCCB32E72717FF9D009E7B1E /* Tools */,
+				DCCB32E22717FF9D009E7B1E /* WebViewController.h */,
+				DCCB32E32717FF9D009E7B1E /* WebViewController.m */,
 				DCCB328A2717FDA4009E7B1E /* Lib */,
 				DCCB32902717FDA4009E7B1E /* XHLaunchAd */,
 			);
@@ -304,6 +325,42 @@
 				DCCB32BE2717FDBD009E7B1E /* image3.jpg */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		DCCB32E42717FF9D009E7B1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB32E52717FF9D009E7B1E /* LaunchAdModel.h */,
+				DCCB32E62717FF9D009E7B1E /* LaunchAdModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DCCB32E72717FF9D009E7B1E /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB32E82717FF9D009E7B1E /* Network */,
+				DCCB32EB2717FF9D009E7B1E /* UIViewController+ */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		DCCB32E82717FF9D009E7B1E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB32E92717FF9D009E7B1E /* Network.m */,
+				DCCB32EA2717FF9D009E7B1E /* Network.h */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DCCB32EB2717FF9D009E7B1E /* UIViewController+ */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB32EC2717FF9D009E7B1E /* UIViewController+Nav.h */,
+				DCCB32ED2717FF9D009E7B1E /* UIViewController+Nav.m */,
+			);
+			path = "UIViewController+";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -557,15 +614,20 @@
 				DCCB32B12717FDA4009E7B1E /* XHLaunchAdConfiguration.m in Sources */,
 				DCCB32B32717FDA4009E7B1E /* XHLaunchAdImageManager.m in Sources */,
 				DCCB32B02717FDA4009E7B1E /* XHLaunchAdImageView+XHLaunchAdCache.m in Sources */,
+				DCCB32EF2717FF9D009E7B1E /* LaunchAdModel.m in Sources */,
 				DCCB32AA2717FDA4009E7B1E /* XHLaunchAdButton.m in Sources */,
 				DCCB32A72717FDA4009E7B1E /* FLAnimatedImage.m in Sources */,
+				DCCB32F02717FF9D009E7B1E /* Network.m in Sources */,
 				DCCB32AC2717FDA4009E7B1E /* XHLaunchAdConst.m in Sources */,
 				DCCB32AE2717FDA4009E7B1E /* XHLaunchAdController.m in Sources */,
 				DCCB32AF2717FDA4009E7B1E /* XHLaunchAdDownloader.m in Sources */,
 				DCCB325C2717BF45009E7B1E /* ViewController.m in Sources */,
 				DCCB32B22717FDA4009E7B1E /* XHLaunchAdCache.m in Sources */,
+				DCCB32E12717FEA4009E7B1E /* XHLaunchAdManager.m in Sources */,
 				DCCB32A82717FDA4009E7B1E /* FLAnimatedImageView.m in Sources */,
 				DCCB32562717BF45009E7B1E /* AppDelegate.m in Sources */,
+				DCCB32F12717FF9D009E7B1E /* UIViewController+Nav.m in Sources */,
+				DCCB32EE2717FF9D009E7B1E /* WebViewController.m in Sources */,
 				DCCB32A92717FDA4009E7B1E /* XHLaunchAdView.m in Sources */,
 				DCCB32AD2717FDA4009E7B1E /* XHLaunchAd.m in Sources */,
 				DCCB32672717BF46009E7B1E /* main.m in Sources */,
