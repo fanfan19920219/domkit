@@ -16,6 +16,7 @@
 #import "AppDelegate.h"
 #import "ViewController.h"
 #import "JLRoutes.h"
+#import "JianShuTabBarVC.h"
 
 @interface AppDelegate ()
 
@@ -30,7 +31,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
 
-    self.window.rootViewController = [[ViewController alloc] init];;
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[JianShuTabBarVC new]];
     [self.window makeKeyAndVisible];
     
     

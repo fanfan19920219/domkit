@@ -12,6 +12,8 @@ target 'SassFramework' do
   
   pod 'DoraemonKit'
   pod 'JLRoutes'
+  pod 'Masonry'
+  pod 'RTRootNavigationController', '~> 0.8.0'
   
   
 

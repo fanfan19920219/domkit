@@ -47,6 +47,50 @@
 		DCCB32EF2717FF9D009E7B1E /* LaunchAdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB32E62717FF9D009E7B1E /* LaunchAdModel.m */; };
 		DCCB32F02717FF9D009E7B1E /* Network.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB32E92717FF9D009E7B1E /* Network.m */; };
 		DCCB32F12717FF9D009E7B1E /* UIViewController+Nav.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB32ED2717FF9D009E7B1E /* UIViewController+Nav.m */; };
+		DCCB32FA27181142009E7B1E /* AxcAE_TabBarBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB32F327181142009E7B1E /* AxcAE_TabBarBadge.m */; };
+		DCCB32FB27181142009E7B1E /* AxcAE_TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB32F527181142009E7B1E /* AxcAE_TabBar.m */; };
+		DCCB32FC27181142009E7B1E /* AxcAE_TabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB32F827181142009E7B1E /* AxcAE_TabBarItem.m */; };
+		DCCB32FF27181213009E7B1E /* JianShuTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB32FD27181213009E7B1E /* JianShuTabBarVC.m */; };
+		DCCB33462718123F009E7B1E /* CustomImageSelColorTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB33022718123F009E7B1E /* CustomImageSelColorTabBarVC.m */; };
+		DCCB33472718123F009E7B1E /* CustomImageTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB33052718123F009E7B1E /* CustomImageTabBarVC.m */; };
+		DCCB33482718123F009E7B1E /* ItemSizeLayoutTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB33092718123F009E7B1E /* ItemSizeLayoutTabBarVC.m */; };
+		DCCB33492718123F009E7B1E /* WHGradientHelperGradientTabBarVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB330B2718123F009E7B1E /* WHGradientHelperGradientTabBarVC2.m */; };
+		DCCB334A2718123F009E7B1E /* WHGradientHelperGradientTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB330E2718123F009E7B1E /* WHGradientHelperGradientTabBarVC.m */; };
+		DCCB334B2718123F009E7B1E /* WHGradientHelperGradientTabBarVC4.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB33122718123F009E7B1E /* WHGradientHelperGradientTabBarVC4.m */; };
+		DCCB334C2718123F009E7B1E /* WHGradientHelperGradientTabBarVC3.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB33152718123F009E7B1E /* WHGradientHelperGradientTabBarVC3.m */; };
+		DCCB334D2718123F009E7B1E /* ItemTingColorTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB33172718123F009E7B1E /* ItemTingColorTabBarVC.m */; };
+		DCCB334E2718123F009E7B1E /* ImageTranslucentTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB331B2718123F009E7B1E /* ImageTranslucentTabBarVC.m */; };
+		DCCB334F2718123F009E7B1E /* ItemCustomBadgeTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB331E2718123F009E7B1E /* ItemCustomBadgeTabBarVC.m */; };
+		DCCB33502718123F009E7B1E /* MultipleBulgeCircularTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB33202718123F009E7B1E /* MultipleBulgeCircularTabBarVC.m */; };
+		DCCB33512718123F009E7B1E /* WHGradientHelperGradientItemTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB33242718123F009E7B1E /* WHGradientHelperGradientItemTabBarVC.m */; };
+		DCCB33522718123F009E7B1E /* BulgeCircularTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB33262718123F009E7B1E /* BulgeCircularTabBarVC.m */; };
+		DCCB33532718123F009E7B1E /* ItemSizeAlignmentTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB332A2718123F009E7B1E /* ItemSizeAlignmentTabBarVC.m */; };
+		DCCB33542718123F009E7B1E /* ItemCustomAnimationTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB332D2718123F009E7B1E /* ItemCustomAnimationTabBarVC.m */; };
+		DCCB33552718123F009E7B1E /* ItemBackgroundImageTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB33302718123F009E7B1E /* ItemBackgroundImageTabBarVC.m */; };
+		DCCB33562718123F009E7B1E /* BaseTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB33332718123F009E7B1E /* BaseTabBar.m */; };
+		DCCB33572718123F009E7B1E /* MultipleBulgeHybridTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB33352718123F009E7B1E /* MultipleBulgeHybridTabBarVC.m */; };
+		DCCB33582718123F009E7B1E /* BulgeSquareTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB33382718123F009E7B1E /* BulgeSquareTabBarVC.m */; };
+		DCCB33592718123F009E7B1E /* ItemSizeTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB333B2718123F009E7B1E /* ItemSizeTabBarVC.m */; };
+		DCCB335A2718123F009E7B1E /* BasedUsingTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB333F2718123F009E7B1E /* BasedUsingTabBarVC.m */; };
+		DCCB335B2718123F009E7B1E /* ItemBackgroundColorTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB33412718123F009E7B1E /* ItemBackgroundColorTabBarVC.m */; };
+		DCCB335C2718123F009E7B1E /* HybridGradientHelperTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB33442718123F009E7B1E /* HybridGradientHelperTabBarVC.m */; };
+		DCCB335F2718128D009E7B1E /* TestTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB335E2718128D009E7B1E /* TestTabBar.m */; };
+		DCCB3363271812F2009E7B1E /* WHGradientHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB3361271812F2009E7B1E /* WHGradientHelper.m */; };
+		DCCB336F271814F8009E7B1E /* BaseNavBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB3365271814F8009E7B1E /* BaseNavBarItem.m */; };
+		DCCB3370271814F8009E7B1E /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB3366271814F8009E7B1E /* BaseTableViewController.m */; };
+		DCCB3371271814F8009E7B1E /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB3367271814F8009E7B1E /* BaseViewController.m */; };
+		DCCB3372271814F8009E7B1E /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB3368271814F8009E7B1E /* BaseNavigationController.m */; };
+		DCCB338B2718157A009E7B1E /* UIButton+ContentLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB33752718157A009E7B1E /* UIButton+ContentLayout.m */; };
+		DCCB338C2718157A009E7B1E /* UIButton+CountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB33762718157A009E7B1E /* UIButton+CountDown.m */; };
+		DCCB338D2718157A009E7B1E /* UIView+Prompt.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB33792718157A009E7B1E /* UIView+Prompt.m */; };
+		DCCB338E2718157A009E7B1E /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB337A2718157A009E7B1E /* UIView+Frame.m */; };
+		DCCB338F2718157A009E7B1E /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB337C2718157A009E7B1E /* UIImage+Extension.m */; };
+		DCCB33902718157A009E7B1E /* UIAlertController+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB337D2718157A009E7B1E /* UIAlertController+Block.m */; };
+		DCCB33912718157A009E7B1E /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB33822718157A009E7B1E /* UIColor+Extension.m */; };
+		DCCB33922718157A009E7B1E /* UIView+Blokc.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB33832718157A009E7B1E /* UIView+Blokc.m */; };
+		DCCB33932718157A009E7B1E /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB33872718157A009E7B1E /* UIView+Extension.m */; };
+		DCCB33942718157A009E7B1E /* NSUserDefaults+Speed.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB33882718157A009E7B1E /* NSUserDefaults+Speed.m */; };
+		DCCB33952718157A009E7B1E /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB33892718157A009E7B1E /* NSString+Size.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,6 +180,96 @@
 		DCCB32EA2717FF9D009E7B1E /* Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Network.h; sourceTree = "<group>"; };
 		DCCB32EC2717FF9D009E7B1E /* UIViewController+Nav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Nav.h"; sourceTree = "<group>"; };
 		DCCB32ED2717FF9D009E7B1E /* UIViewController+Nav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Nav.m"; sourceTree = "<group>"; };
+		DCCB32F327181142009E7B1E /* AxcAE_TabBarBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxcAE_TabBarBadge.m; sourceTree = "<group>"; };
+		DCCB32F427181142009E7B1E /* AxcAE_TabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxcAE_TabBarItem.h; sourceTree = "<group>"; };
+		DCCB32F527181142009E7B1E /* AxcAE_TabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxcAE_TabBar.m; sourceTree = "<group>"; };
+		DCCB32F627181142009E7B1E /* AxcAE_TabBarDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxcAE_TabBarDefine.h; sourceTree = "<group>"; };
+		DCCB32F727181142009E7B1E /* AxcAE_TabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxcAE_TabBar.h; sourceTree = "<group>"; };
+		DCCB32F827181142009E7B1E /* AxcAE_TabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxcAE_TabBarItem.m; sourceTree = "<group>"; };
+		DCCB32F927181142009E7B1E /* AxcAE_TabBarBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxcAE_TabBarBadge.h; sourceTree = "<group>"; };
+		DCCB32FD27181213009E7B1E /* JianShuTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JianShuTabBarVC.m; sourceTree = "<group>"; };
+		DCCB32FE27181213009E7B1E /* JianShuTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JianShuTabBarVC.h; sourceTree = "<group>"; };
+		DCCB33022718123F009E7B1E /* CustomImageSelColorTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomImageSelColorTabBarVC.m; sourceTree = "<group>"; };
+		DCCB33032718123F009E7B1E /* CustomImageSelColorTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomImageSelColorTabBarVC.h; sourceTree = "<group>"; };
+		DCCB33052718123F009E7B1E /* CustomImageTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomImageTabBarVC.m; sourceTree = "<group>"; };
+		DCCB33062718123F009E7B1E /* CustomImageTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomImageTabBarVC.h; sourceTree = "<group>"; };
+		DCCB33082718123F009E7B1E /* ItemSizeLayoutTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemSizeLayoutTabBarVC.h; sourceTree = "<group>"; };
+		DCCB33092718123F009E7B1E /* ItemSizeLayoutTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemSizeLayoutTabBarVC.m; sourceTree = "<group>"; };
+		DCCB330B2718123F009E7B1E /* WHGradientHelperGradientTabBarVC2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHGradientHelperGradientTabBarVC2.m; sourceTree = "<group>"; };
+		DCCB330C2718123F009E7B1E /* WHGradientHelperGradientTabBarVC2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHGradientHelperGradientTabBarVC2.h; sourceTree = "<group>"; };
+		DCCB330E2718123F009E7B1E /* WHGradientHelperGradientTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHGradientHelperGradientTabBarVC.m; sourceTree = "<group>"; };
+		DCCB330F2718123F009E7B1E /* WHGradientHelperGradientTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHGradientHelperGradientTabBarVC.h; sourceTree = "<group>"; };
+		DCCB33112718123F009E7B1E /* WHGradientHelperGradientTabBarVC4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHGradientHelperGradientTabBarVC4.h; sourceTree = "<group>"; };
+		DCCB33122718123F009E7B1E /* WHGradientHelperGradientTabBarVC4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHGradientHelperGradientTabBarVC4.m; sourceTree = "<group>"; };
+		DCCB33142718123F009E7B1E /* WHGradientHelperGradientTabBarVC3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHGradientHelperGradientTabBarVC3.h; sourceTree = "<group>"; };
+		DCCB33152718123F009E7B1E /* WHGradientHelperGradientTabBarVC3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHGradientHelperGradientTabBarVC3.m; sourceTree = "<group>"; };
+		DCCB33172718123F009E7B1E /* ItemTingColorTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemTingColorTabBarVC.m; sourceTree = "<group>"; };
+		DCCB33182718123F009E7B1E /* ItemTingColorTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemTingColorTabBarVC.h; sourceTree = "<group>"; };
+		DCCB331A2718123F009E7B1E /* ImageTranslucentTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTranslucentTabBarVC.h; sourceTree = "<group>"; };
+		DCCB331B2718123F009E7B1E /* ImageTranslucentTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTranslucentTabBarVC.m; sourceTree = "<group>"; };
+		DCCB331D2718123F009E7B1E /* ItemCustomBadgeTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCustomBadgeTabBarVC.h; sourceTree = "<group>"; };
+		DCCB331E2718123F009E7B1E /* ItemCustomBadgeTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCustomBadgeTabBarVC.m; sourceTree = "<group>"; };
+		DCCB33202718123F009E7B1E /* MultipleBulgeCircularTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipleBulgeCircularTabBarVC.m; sourceTree = "<group>"; };
+		DCCB33212718123F009E7B1E /* MultipleBulgeCircularTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleBulgeCircularTabBarVC.h; sourceTree = "<group>"; };
+		DCCB33232718123F009E7B1E /* WHGradientHelperGradientItemTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHGradientHelperGradientItemTabBarVC.h; sourceTree = "<group>"; };
+		DCCB33242718123F009E7B1E /* WHGradientHelperGradientItemTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHGradientHelperGradientItemTabBarVC.m; sourceTree = "<group>"; };
+		DCCB33262718123F009E7B1E /* BulgeCircularTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BulgeCircularTabBarVC.m; sourceTree = "<group>"; };
+		DCCB33272718123F009E7B1E /* BulgeCircularTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulgeCircularTabBarVC.h; sourceTree = "<group>"; };
+		DCCB33292718123F009E7B1E /* ItemSizeAlignmentTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemSizeAlignmentTabBarVC.h; sourceTree = "<group>"; };
+		DCCB332A2718123F009E7B1E /* ItemSizeAlignmentTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemSizeAlignmentTabBarVC.m; sourceTree = "<group>"; };
+		DCCB332C2718123F009E7B1E /* ItemCustomAnimationTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCustomAnimationTabBarVC.h; sourceTree = "<group>"; };
+		DCCB332D2718123F009E7B1E /* ItemCustomAnimationTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCustomAnimationTabBarVC.m; sourceTree = "<group>"; };
+		DCCB332F2718123F009E7B1E /* ItemBackgroundImageTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemBackgroundImageTabBarVC.h; sourceTree = "<group>"; };
+		DCCB33302718123F009E7B1E /* ItemBackgroundImageTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemBackgroundImageTabBarVC.m; sourceTree = "<group>"; };
+		DCCB33322718123F009E7B1E /* BaseTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBar.h; sourceTree = "<group>"; };
+		DCCB33332718123F009E7B1E /* BaseTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBar.m; sourceTree = "<group>"; };
+		DCCB33352718123F009E7B1E /* MultipleBulgeHybridTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipleBulgeHybridTabBarVC.m; sourceTree = "<group>"; };
+		DCCB33362718123F009E7B1E /* MultipleBulgeHybridTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleBulgeHybridTabBarVC.h; sourceTree = "<group>"; };
+		DCCB33382718123F009E7B1E /* BulgeSquareTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BulgeSquareTabBarVC.m; sourceTree = "<group>"; };
+		DCCB33392718123F009E7B1E /* BulgeSquareTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulgeSquareTabBarVC.h; sourceTree = "<group>"; };
+		DCCB333B2718123F009E7B1E /* ItemSizeTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemSizeTabBarVC.m; sourceTree = "<group>"; };
+		DCCB333C2718123F009E7B1E /* ItemSizeTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemSizeTabBarVC.h; sourceTree = "<group>"; };
+		DCCB333E2718123F009E7B1E /* BasedUsingTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasedUsingTabBarVC.h; sourceTree = "<group>"; };
+		DCCB333F2718123F009E7B1E /* BasedUsingTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasedUsingTabBarVC.m; sourceTree = "<group>"; };
+		DCCB33412718123F009E7B1E /* ItemBackgroundColorTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemBackgroundColorTabBarVC.m; sourceTree = "<group>"; };
+		DCCB33422718123F009E7B1E /* ItemBackgroundColorTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemBackgroundColorTabBarVC.h; sourceTree = "<group>"; };
+		DCCB33442718123F009E7B1E /* HybridGradientHelperTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HybridGradientHelperTabBarVC.m; sourceTree = "<group>"; };
+		DCCB33452718123F009E7B1E /* HybridGradientHelperTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HybridGradientHelperTabBarVC.h; sourceTree = "<group>"; };
+		DCCB335D2718128D009E7B1E /* TestTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTabBar.h; sourceTree = "<group>"; };
+		DCCB335E2718128D009E7B1E /* TestTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTabBar.m; sourceTree = "<group>"; };
+		DCCB3361271812F2009E7B1E /* WHGradientHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHGradientHelper.m; sourceTree = "<group>"; };
+		DCCB3362271812F2009E7B1E /* WHGradientHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHGradientHelper.h; sourceTree = "<group>"; };
+		DCCB3365271814F8009E7B1E /* BaseNavBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavBarItem.m; sourceTree = "<group>"; };
+		DCCB3366271814F8009E7B1E /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		DCCB3367271814F8009E7B1E /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		DCCB3368271814F8009E7B1E /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		DCCB336A271814F8009E7B1E /* BaseNavBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavBarItem.h; sourceTree = "<group>"; };
+		DCCB336B271814F8009E7B1E /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		DCCB336C271814F8009E7B1E /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		DCCB336D271814F8009E7B1E /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		DCCB33752718157A009E7B1E /* UIButton+ContentLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ContentLayout.m"; sourceTree = "<group>"; };
+		DCCB33762718157A009E7B1E /* UIButton+CountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CountDown.m"; sourceTree = "<group>"; };
+		DCCB33772718157A009E7B1E /* UIView+Blokc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Blokc.h"; sourceTree = "<group>"; };
+		DCCB33782718157A009E7B1E /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		DCCB33792718157A009E7B1E /* UIView+Prompt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Prompt.m"; sourceTree = "<group>"; };
+		DCCB337A2718157A009E7B1E /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		DCCB337B2718157A009E7B1E /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		DCCB337C2718157A009E7B1E /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		DCCB337D2718157A009E7B1E /* UIAlertController+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Block.m"; sourceTree = "<group>"; };
+		DCCB337E2718157A009E7B1E /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		DCCB337F2718157A009E7B1E /* NSUserDefaults+Speed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+Speed.h"; sourceTree = "<group>"; };
+		DCCB33802718157A009E7B1E /* UIButton+ContentLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ContentLayout.h"; sourceTree = "<group>"; };
+		DCCB33812718157A009E7B1E /* UIView+Prompt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Prompt.h"; sourceTree = "<group>"; };
+		DCCB33822718157A009E7B1E /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		DCCB33832718157A009E7B1E /* UIView+Blokc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Blokc.m"; sourceTree = "<group>"; };
+		DCCB33842718157A009E7B1E /* UIButton+CountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CountDown.h"; sourceTree = "<group>"; };
+		DCCB33852718157A009E7B1E /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		DCCB33862718157A009E7B1E /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		DCCB33872718157A009E7B1E /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		DCCB33882718157A009E7B1E /* NSUserDefaults+Speed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+Speed.m"; sourceTree = "<group>"; };
+		DCCB33892718157A009E7B1E /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
+		DCCB338A2718157A009E7B1E /* UIAlertController+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Block.h"; sourceTree = "<group>"; };
+		DCCB33A527181BEB009E7B1E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		E163AB61F5D45B0D1DD60A07 /* Pods_SassFramework_SassFrameworkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SassFramework_SassFrameworkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -215,6 +349,12 @@
 		DCCB32532717BF45009E7B1E /* SassFramework */ = {
 			isa = PBXGroup;
 			children = (
+				DCCB33A527181BEB009E7B1E /* PrefixHeader.pch */,
+				DCCB33742718157A009E7B1E /* Category */,
+				DCCB3364271814F8009E7B1E /* Base */,
+				DCCB3360271812F2009E7B1E /* WHGradientHelper */,
+				DCCB33002718123F009E7B1E /* SubTabBarVC */,
+				DCCB32F227181142009E7B1E /* AxcAE_TabBar */,
 				DCCB32B42717FDBD009E7B1E /* Source */,
 				DCCB32892717FDA4009E7B1E /* XHLaunchAd */,
 				DCCB32542717BF45009E7B1E /* AppDelegate.h */,
@@ -223,6 +363,10 @@
 				DCCB325B2717BF45009E7B1E /* ViewController.m */,
 				DCCB32DF2717FEA3009E7B1E /* XHLaunchAdManager.h */,
 				DCCB32E02717FEA4009E7B1E /* XHLaunchAdManager.m */,
+				DCCB32FE27181213009E7B1E /* JianShuTabBarVC.h */,
+				DCCB32FD27181213009E7B1E /* JianShuTabBarVC.m */,
+				DCCB335D2718128D009E7B1E /* TestTabBar.h */,
+				DCCB335E2718128D009E7B1E /* TestTabBar.m */,
 				DCCB325D2717BF45009E7B1E /* Main.storyboard */,
 				DCCB32602717BF46009E7B1E /* Assets.xcassets */,
 				DCCB32622717BF46009E7B1E /* LaunchScreen.storyboard */,
@@ -361,6 +505,310 @@
 				DCCB32ED2717FF9D009E7B1E /* UIViewController+Nav.m */,
 			);
 			path = "UIViewController+";
+			sourceTree = "<group>";
+		};
+		DCCB32F227181142009E7B1E /* AxcAE_TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB32F327181142009E7B1E /* AxcAE_TabBarBadge.m */,
+				DCCB32F427181142009E7B1E /* AxcAE_TabBarItem.h */,
+				DCCB32F527181142009E7B1E /* AxcAE_TabBar.m */,
+				DCCB32F627181142009E7B1E /* AxcAE_TabBarDefine.h */,
+				DCCB32F727181142009E7B1E /* AxcAE_TabBar.h */,
+				DCCB32F827181142009E7B1E /* AxcAE_TabBarItem.m */,
+				DCCB32F927181142009E7B1E /* AxcAE_TabBarBadge.h */,
+			);
+			path = AxcAE_TabBar;
+			sourceTree = "<group>";
+		};
+		DCCB33002718123F009E7B1E /* SubTabBarVC */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB33012718123F009E7B1E /* 自定义TabBar背景图+选中颜色 */,
+				DCCB33042718123F009E7B1E /* 自定义TabBar背景图片 */,
+				DCCB33072718123F009E7B1E /* 按钮自定义布局模式 */,
+				DCCB330A2718123F009E7B1E /* WHGradientHelper渐变色2 */,
+				DCCB330D2718123F009E7B1E /* WHGradientHelper渐变色 */,
+				DCCB33102718123F009E7B1E /* WHGradientHelper渐变色4 */,
+				DCCB33132718123F009E7B1E /* WHGradientHelper渐变色3 */,
+				DCCB33162718123F009E7B1E /* 按钮自定义渲染图片 */,
+				DCCB33192718123F009E7B1E /* 自定义TabBar背景图+模糊毛玻璃 */,
+				DCCB331C2718123F009E7B1E /* 按钮自定义徽标 */,
+				DCCB331F2718123F009E7B1E /* TabBar多重圆形凸出 */,
+				DCCB33222718123F009E7B1E /* WHGradientHelper按钮渐变色 */,
+				DCCB33252718123F009E7B1E /* TabBar中间圆形凸出 */,
+				DCCB33282718123F009E7B1E /* 按钮自定义对齐模式 */,
+				DCCB332B2718123F009E7B1E /* 按钮自定义交互效果 */,
+				DCCB332E2718123F009E7B1E /* 按钮自定义背景图 */,
+				DCCB33312718123F009E7B1E /* BaseTabBar */,
+				DCCB33342718123F009E7B1E /* TabBar多重混合凸出 */,
+				DCCB33372718123F009E7B1E /* TabBar矩形图片凸出 */,
+				DCCB333A2718123F009E7B1E /* 按钮自定义大小 */,
+				DCCB333D2718123F009E7B1E /* 基础使用 */,
+				DCCB33402718123F009E7B1E /* 按钮自定义背景颜色 */,
+				DCCB33432718123F009E7B1E /* 与WHGradientHelper混合使用 */,
+			);
+			path = SubTabBarVC;
+			sourceTree = "<group>";
+		};
+		DCCB33012718123F009E7B1E /* 自定义TabBar背景图+选中颜色 */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB33022718123F009E7B1E /* CustomImageSelColorTabBarVC.m */,
+				DCCB33032718123F009E7B1E /* CustomImageSelColorTabBarVC.h */,
+			);
+			path = "自定义TabBar背景图+选中颜色";
+			sourceTree = "<group>";
+		};
+		DCCB33042718123F009E7B1E /* 自定义TabBar背景图片 */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB33052718123F009E7B1E /* CustomImageTabBarVC.m */,
+				DCCB33062718123F009E7B1E /* CustomImageTabBarVC.h */,
+			);
+			path = "自定义TabBar背景图片";
+			sourceTree = "<group>";
+		};
+		DCCB33072718123F009E7B1E /* 按钮自定义布局模式 */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB33082718123F009E7B1E /* ItemSizeLayoutTabBarVC.h */,
+				DCCB33092718123F009E7B1E /* ItemSizeLayoutTabBarVC.m */,
+			);
+			path = "按钮自定义布局模式";
+			sourceTree = "<group>";
+		};
+		DCCB330A2718123F009E7B1E /* WHGradientHelper渐变色2 */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB330B2718123F009E7B1E /* WHGradientHelperGradientTabBarVC2.m */,
+				DCCB330C2718123F009E7B1E /* WHGradientHelperGradientTabBarVC2.h */,
+			);
+			path = "WHGradientHelper渐变色2";
+			sourceTree = "<group>";
+		};
+		DCCB330D2718123F009E7B1E /* WHGradientHelper渐变色 */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB330E2718123F009E7B1E /* WHGradientHelperGradientTabBarVC.m */,
+				DCCB330F2718123F009E7B1E /* WHGradientHelperGradientTabBarVC.h */,
+			);
+			path = "WHGradientHelper渐变色";
+			sourceTree = "<group>";
+		};
+		DCCB33102718123F009E7B1E /* WHGradientHelper渐变色4 */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB33112718123F009E7B1E /* WHGradientHelperGradientTabBarVC4.h */,
+				DCCB33122718123F009E7B1E /* WHGradientHelperGradientTabBarVC4.m */,
+			);
+			path = "WHGradientHelper渐变色4";
+			sourceTree = "<group>";
+		};
+		DCCB33132718123F009E7B1E /* WHGradientHelper渐变色3 */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB33142718123F009E7B1E /* WHGradientHelperGradientTabBarVC3.h */,
+				DCCB33152718123F009E7B1E /* WHGradientHelperGradientTabBarVC3.m */,
+			);
+			path = "WHGradientHelper渐变色3";
+			sourceTree = "<group>";
+		};
+		DCCB33162718123F009E7B1E /* 按钮自定义渲染图片 */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB33172718123F009E7B1E /* ItemTingColorTabBarVC.m */,
+				DCCB33182718123F009E7B1E /* ItemTingColorTabBarVC.h */,
+			);
+			path = "按钮自定义渲染图片";
+			sourceTree = "<group>";
+		};
+		DCCB33192718123F009E7B1E /* 自定义TabBar背景图+模糊毛玻璃 */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB331A2718123F009E7B1E /* ImageTranslucentTabBarVC.h */,
+				DCCB331B2718123F009E7B1E /* ImageTranslucentTabBarVC.m */,
+			);
+			path = "自定义TabBar背景图+模糊毛玻璃";
+			sourceTree = "<group>";
+		};
+		DCCB331C2718123F009E7B1E /* 按钮自定义徽标 */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB331D2718123F009E7B1E /* ItemCustomBadgeTabBarVC.h */,
+				DCCB331E2718123F009E7B1E /* ItemCustomBadgeTabBarVC.m */,
+			);
+			path = "按钮自定义徽标";
+			sourceTree = "<group>";
+		};
+		DCCB331F2718123F009E7B1E /* TabBar多重圆形凸出 */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB33202718123F009E7B1E /* MultipleBulgeCircularTabBarVC.m */,
+				DCCB33212718123F009E7B1E /* MultipleBulgeCircularTabBarVC.h */,
+			);
+			path = "TabBar多重圆形凸出";
+			sourceTree = "<group>";
+		};
+		DCCB33222718123F009E7B1E /* WHGradientHelper按钮渐变色 */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB33232718123F009E7B1E /* WHGradientHelperGradientItemTabBarVC.h */,
+				DCCB33242718123F009E7B1E /* WHGradientHelperGradientItemTabBarVC.m */,
+			);
+			path = "WHGradientHelper按钮渐变色";
+			sourceTree = "<group>";
+		};
+		DCCB33252718123F009E7B1E /* TabBar中间圆形凸出 */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB33262718123F009E7B1E /* BulgeCircularTabBarVC.m */,
+				DCCB33272718123F009E7B1E /* BulgeCircularTabBarVC.h */,
+			);
+			path = "TabBar中间圆形凸出";
+			sourceTree = "<group>";
+		};
+		DCCB33282718123F009E7B1E /* 按钮自定义对齐模式 */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB33292718123F009E7B1E /* ItemSizeAlignmentTabBarVC.h */,
+				DCCB332A2718123F009E7B1E /* ItemSizeAlignmentTabBarVC.m */,
+			);
+			path = "按钮自定义对齐模式";
+			sourceTree = "<group>";
+		};
+		DCCB332B2718123F009E7B1E /* 按钮自定义交互效果 */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB332C2718123F009E7B1E /* ItemCustomAnimationTabBarVC.h */,
+				DCCB332D2718123F009E7B1E /* ItemCustomAnimationTabBarVC.m */,
+			);
+			path = "按钮自定义交互效果";
+			sourceTree = "<group>";
+		};
+		DCCB332E2718123F009E7B1E /* 按钮自定义背景图 */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB332F2718123F009E7B1E /* ItemBackgroundImageTabBarVC.h */,
+				DCCB33302718123F009E7B1E /* ItemBackgroundImageTabBarVC.m */,
+			);
+			path = "按钮自定义背景图";
+			sourceTree = "<group>";
+		};
+		DCCB33312718123F009E7B1E /* BaseTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB33322718123F009E7B1E /* BaseTabBar.h */,
+				DCCB33332718123F009E7B1E /* BaseTabBar.m */,
+			);
+			path = BaseTabBar;
+			sourceTree = "<group>";
+		};
+		DCCB33342718123F009E7B1E /* TabBar多重混合凸出 */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB33352718123F009E7B1E /* MultipleBulgeHybridTabBarVC.m */,
+				DCCB33362718123F009E7B1E /* MultipleBulgeHybridTabBarVC.h */,
+			);
+			path = "TabBar多重混合凸出";
+			sourceTree = "<group>";
+		};
+		DCCB33372718123F009E7B1E /* TabBar矩形图片凸出 */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB33382718123F009E7B1E /* BulgeSquareTabBarVC.m */,
+				DCCB33392718123F009E7B1E /* BulgeSquareTabBarVC.h */,
+			);
+			path = "TabBar矩形图片凸出";
+			sourceTree = "<group>";
+		};
+		DCCB333A2718123F009E7B1E /* 按钮自定义大小 */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB333B2718123F009E7B1E /* ItemSizeTabBarVC.m */,
+				DCCB333C2718123F009E7B1E /* ItemSizeTabBarVC.h */,
+			);
+			path = "按钮自定义大小";
+			sourceTree = "<group>";
+		};
+		DCCB333D2718123F009E7B1E /* 基础使用 */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB333E2718123F009E7B1E /* BasedUsingTabBarVC.h */,
+				DCCB333F2718123F009E7B1E /* BasedUsingTabBarVC.m */,
+			);
+			path = "基础使用";
+			sourceTree = "<group>";
+		};
+		DCCB33402718123F009E7B1E /* 按钮自定义背景颜色 */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB33412718123F009E7B1E /* ItemBackgroundColorTabBarVC.m */,
+				DCCB33422718123F009E7B1E /* ItemBackgroundColorTabBarVC.h */,
+			);
+			path = "按钮自定义背景颜色";
+			sourceTree = "<group>";
+		};
+		DCCB33432718123F009E7B1E /* 与WHGradientHelper混合使用 */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB33442718123F009E7B1E /* HybridGradientHelperTabBarVC.m */,
+				DCCB33452718123F009E7B1E /* HybridGradientHelperTabBarVC.h */,
+			);
+			path = "与WHGradientHelper混合使用";
+			sourceTree = "<group>";
+		};
+		DCCB3360271812F2009E7B1E /* WHGradientHelper */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB3361271812F2009E7B1E /* WHGradientHelper.m */,
+				DCCB3362271812F2009E7B1E /* WHGradientHelper.h */,
+			);
+			path = WHGradientHelper;
+			sourceTree = "<group>";
+		};
+		DCCB3364271814F8009E7B1E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB3365271814F8009E7B1E /* BaseNavBarItem.m */,
+				DCCB3366271814F8009E7B1E /* BaseTableViewController.m */,
+				DCCB3367271814F8009E7B1E /* BaseViewController.m */,
+				DCCB3368271814F8009E7B1E /* BaseNavigationController.m */,
+				DCCB336A271814F8009E7B1E /* BaseNavBarItem.h */,
+				DCCB336B271814F8009E7B1E /* BaseTableViewController.h */,
+				DCCB336C271814F8009E7B1E /* BaseNavigationController.h */,
+				DCCB336D271814F8009E7B1E /* BaseViewController.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		DCCB33742718157A009E7B1E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB33752718157A009E7B1E /* UIButton+ContentLayout.m */,
+				DCCB33762718157A009E7B1E /* UIButton+CountDown.m */,
+				DCCB33772718157A009E7B1E /* UIView+Blokc.h */,
+				DCCB33782718157A009E7B1E /* UIColor+Extension.h */,
+				DCCB33792718157A009E7B1E /* UIView+Prompt.m */,
+				DCCB337A2718157A009E7B1E /* UIView+Frame.m */,
+				DCCB337B2718157A009E7B1E /* UIView+Extension.h */,
+				DCCB337C2718157A009E7B1E /* UIImage+Extension.m */,
+				DCCB337D2718157A009E7B1E /* UIAlertController+Block.m */,
+				DCCB337E2718157A009E7B1E /* NSString+Size.h */,
+				DCCB337F2718157A009E7B1E /* NSUserDefaults+Speed.h */,
+				DCCB33802718157A009E7B1E /* UIButton+ContentLayout.h */,
+				DCCB33812718157A009E7B1E /* UIView+Prompt.h */,
+				DCCB33822718157A009E7B1E /* UIColor+Extension.m */,
+				DCCB33832718157A009E7B1E /* UIView+Blokc.m */,
+				DCCB33842718157A009E7B1E /* UIButton+CountDown.h */,
+				DCCB33852718157A009E7B1E /* UIImage+Extension.h */,
+				DCCB33862718157A009E7B1E /* UIView+Frame.h */,
+				DCCB33872718157A009E7B1E /* UIView+Extension.m */,
+				DCCB33882718157A009E7B1E /* NSUserDefaults+Speed.m */,
+				DCCB33892718157A009E7B1E /* NSString+Size.m */,
+				DCCB338A2718157A009E7B1E /* UIAlertController+Block.h */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -611,27 +1059,71 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCCB3363271812F2009E7B1E /* WHGradientHelper.m in Sources */,
+				DCCB33922718157A009E7B1E /* UIView+Blokc.m in Sources */,
+				DCCB33482718123F009E7B1E /* ItemSizeLayoutTabBarVC.m in Sources */,
 				DCCB32B12717FDA4009E7B1E /* XHLaunchAdConfiguration.m in Sources */,
 				DCCB32B32717FDA4009E7B1E /* XHLaunchAdImageManager.m in Sources */,
 				DCCB32B02717FDA4009E7B1E /* XHLaunchAdImageView+XHLaunchAdCache.m in Sources */,
+				DCCB3371271814F8009E7B1E /* BaseViewController.m in Sources */,
 				DCCB32EF2717FF9D009E7B1E /* LaunchAdModel.m in Sources */,
+				DCCB335B2718123F009E7B1E /* ItemBackgroundColorTabBarVC.m in Sources */,
+				DCCB338C2718157A009E7B1E /* UIButton+CountDown.m in Sources */,
+				DCCB33522718123F009E7B1E /* BulgeCircularTabBarVC.m in Sources */,
+				DCCB33592718123F009E7B1E /* ItemSizeTabBarVC.m in Sources */,
 				DCCB32AA2717FDA4009E7B1E /* XHLaunchAdButton.m in Sources */,
+				DCCB33492718123F009E7B1E /* WHGradientHelperGradientTabBarVC2.m in Sources */,
+				DCCB33932718157A009E7B1E /* UIView+Extension.m in Sources */,
 				DCCB32A72717FDA4009E7B1E /* FLAnimatedImage.m in Sources */,
+				DCCB338F2718157A009E7B1E /* UIImage+Extension.m in Sources */,
+				DCCB33512718123F009E7B1E /* WHGradientHelperGradientItemTabBarVC.m in Sources */,
 				DCCB32F02717FF9D009E7B1E /* Network.m in Sources */,
 				DCCB32AC2717FDA4009E7B1E /* XHLaunchAdConst.m in Sources */,
 				DCCB32AE2717FDA4009E7B1E /* XHLaunchAdController.m in Sources */,
+				DCCB33942718157A009E7B1E /* NSUserDefaults+Speed.m in Sources */,
+				DCCB32FC27181142009E7B1E /* AxcAE_TabBarItem.m in Sources */,
 				DCCB32AF2717FDA4009E7B1E /* XHLaunchAdDownloader.m in Sources */,
+				DCCB338E2718157A009E7B1E /* UIView+Frame.m in Sources */,
 				DCCB325C2717BF45009E7B1E /* ViewController.m in Sources */,
+				DCCB32FF27181213009E7B1E /* JianShuTabBarVC.m in Sources */,
+				DCCB33552718123F009E7B1E /* ItemBackgroundImageTabBarVC.m in Sources */,
 				DCCB32B22717FDA4009E7B1E /* XHLaunchAdCache.m in Sources */,
+				DCCB334F2718123F009E7B1E /* ItemCustomBadgeTabBarVC.m in Sources */,
+				DCCB334D2718123F009E7B1E /* ItemTingColorTabBarVC.m in Sources */,
 				DCCB32E12717FEA4009E7B1E /* XHLaunchAdManager.m in Sources */,
+				DCCB334A2718123F009E7B1E /* WHGradientHelperGradientTabBarVC.m in Sources */,
 				DCCB32A82717FDA4009E7B1E /* FLAnimatedImageView.m in Sources */,
+				DCCB33542718123F009E7B1E /* ItemCustomAnimationTabBarVC.m in Sources */,
+				DCCB334B2718123F009E7B1E /* WHGradientHelperGradientTabBarVC4.m in Sources */,
+				DCCB33462718123F009E7B1E /* CustomImageSelColorTabBarVC.m in Sources */,
+				DCCB33572718123F009E7B1E /* MultipleBulgeHybridTabBarVC.m in Sources */,
+				DCCB33902718157A009E7B1E /* UIAlertController+Block.m in Sources */,
+				DCCB338B2718157A009E7B1E /* UIButton+ContentLayout.m in Sources */,
+				DCCB335C2718123F009E7B1E /* HybridGradientHelperTabBarVC.m in Sources */,
+				DCCB338D2718157A009E7B1E /* UIView+Prompt.m in Sources */,
+				DCCB32FA27181142009E7B1E /* AxcAE_TabBarBadge.m in Sources */,
+				DCCB33582718123F009E7B1E /* BulgeSquareTabBarVC.m in Sources */,
+				DCCB3370271814F8009E7B1E /* BaseTableViewController.m in Sources */,
+				DCCB33472718123F009E7B1E /* CustomImageTabBarVC.m in Sources */,
 				DCCB32562717BF45009E7B1E /* AppDelegate.m in Sources */,
+				DCCB33562718123F009E7B1E /* BaseTabBar.m in Sources */,
 				DCCB32F12717FF9D009E7B1E /* UIViewController+Nav.m in Sources */,
+				DCCB334E2718123F009E7B1E /* ImageTranslucentTabBarVC.m in Sources */,
+				DCCB334C2718123F009E7B1E /* WHGradientHelperGradientTabBarVC3.m in Sources */,
 				DCCB32EE2717FF9D009E7B1E /* WebViewController.m in Sources */,
+				DCCB33532718123F009E7B1E /* ItemSizeAlignmentTabBarVC.m in Sources */,
 				DCCB32A92717FDA4009E7B1E /* XHLaunchAdView.m in Sources */,
 				DCCB32AD2717FDA4009E7B1E /* XHLaunchAd.m in Sources */,
+				DCCB33912718157A009E7B1E /* UIColor+Extension.m in Sources */,
+				DCCB335F2718128D009E7B1E /* TestTabBar.m in Sources */,
+				DCCB33952718157A009E7B1E /* NSString+Size.m in Sources */,
+				DCCB335A2718123F009E7B1E /* BasedUsingTabBarVC.m in Sources */,
+				DCCB32FB27181142009E7B1E /* AxcAE_TabBar.m in Sources */,
+				DCCB336F271814F8009E7B1E /* BaseNavBarItem.m in Sources */,
+				DCCB3372271814F8009E7B1E /* BaseNavigationController.m in Sources */,
 				DCCB32672717BF46009E7B1E /* main.m in Sources */,
 				DCCB32AB2717FDA4009E7B1E /* XHLaunchImageView.m in Sources */,
+				DCCB33502718123F009E7B1E /* MultipleBulgeCircularTabBarVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -728,6 +1220,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = /Users/zhihuazhang/Desktop/XcodePro/SassFramework/SassFramework/PrefixHeader.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -785,6 +1278,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = /Users/zhihuazhang/Desktop/XcodePro/SassFramework/SassFramework/PrefixHeader.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;

@@ -33,10 +33,16 @@ PODS:
   - GCDWebServer/WebUploader (3.5.4):
     - GCDWebServer/Core
   - JLRoutes (2.1)
+  - Masonry (1.1.0)
+  - RTRootNavigationController (0.8.0):
+    - RTRootNavigationController/Core (= 0.8.0)
+  - RTRootNavigationController/Core (0.8.0)
 
 DEPENDENCIES:
   - DoraemonKit
   - JLRoutes
+  - Masonry
+  - RTRootNavigationController (~> 0.8.0)
 
 SPEC REPOS:
   trunk:
@@ -45,6 +51,8 @@ SPEC REPOS:
     - FMDB
     - GCDWebServer
     - JLRoutes
+    - Masonry
+    - RTRootNavigationController
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
@@ -52,7 +60,9 @@ SPEC CHECKSUMS:
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
   JLRoutes: d755245322b94227662ea3e43492fdca94e05c5b
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  RTRootNavigationController: 36c6301870f0467f89d69f4286795340b537d473
 
-PODFILE CHECKSUM: 6aa5f0c72b2eff398ad6ab68ece8a4576a88aa9b
+PODFILE CHECKSUM: 937ea628b5dde91a2f466f460e84ff1ce53d0d37
 
 COCOAPODS: 1.10.1
