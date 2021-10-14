@@ -69,7 +69,7 @@
     //[self example03];
     
     /*4.视频开屏广告 - 本地数据 */
-    //[self example04];
+//    [self example04];
     
     /*5.如需自定义跳过按钮,请看这个示例 */
     //[self example05];
