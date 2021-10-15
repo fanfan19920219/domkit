@@ -31,7 +31,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
 
-    self.window.rootViewController = [[BaseNavigationController alloc] initWithRootViewController:[[JianShuTabBarVC alloc]init]];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[JianShuTabBarVC alloc]init]];
     [self.window makeKeyAndVisible];
     
 #ifdef DEBUG
@@ -56,12 +56,12 @@
            UINavigationBar *navigationBar = [UINavigationBar appearance];
            
            UINavigationBarAppearance *scrollEdgeAppearance = [[UINavigationBarAppearance alloc] init];
-//           scrollEdgeAppearance.backgroundColor = UIColor.systemRedColor;
+           scrollEdgeAppearance.backgroundColor = UIColor.whiteColor;
            navigationBar.scrollEdgeAppearance = scrollEdgeAppearance;
-
-           UINavigationBarAppearance *standardAppearance = [[UINavigationBarAppearance alloc] init];
-           standardAppearance.backgroundColor = UIColor.clearColor;
-           navigationBar.standardAppearance = standardAppearance;
+//
+//           UINavigationBarAppearance *standardAppearance = [[UINavigationBarAppearance alloc] init];
+//           standardAppearance.backgroundColor = UIColor.clearColor;
+//           navigationBar.standardAppearance = standardAppearance;
        }
     
     return YES;

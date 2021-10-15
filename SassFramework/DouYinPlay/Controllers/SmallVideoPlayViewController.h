@@ -17,7 +17,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SmallVideoPlayViewController : UIViewController
+@interface SmallVideoPlayViewController : BaseViewController
 
 @property (nonatomic, assign) NSUInteger page;
 @property (nonatomic, strong) NSMutableArray *modelArray;

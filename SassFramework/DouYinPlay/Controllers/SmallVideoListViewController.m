@@ -7,6 +7,7 @@
 //
 
 #import "SmallVideoListViewController.h"
+#import "MJRefresh.h"
 #import "DDAnimationLayout.h"
 #import "SmallVideoCell.h"
 #import "SmallVideoModel.h"
@@ -28,12 +29,17 @@ static NSString* const SmallVideoCellIdentifier = @"SmallVideoCellIdentifier";
 
 - (void)viewDidLoad {
     
-    [super viewDidLoad];
+//    [super viewDidLoad];
     [self setupBaseView];
     [self loadData];
     
-    self.navigationController.navigationBarHidden = YES;
+
+    self.tabBarController.navigationItem.title = @"\\视频";
     
+    
+//    self.rt_navigationController.navigationBar.hidden = YES;
+    
+
 }
 
 #pragma mark - SetupBase
@@ -49,11 +55,21 @@ static NSString* const SmallVideoCellIdentifier = @"SmallVideoCellIdentifier";
     layout.scrollDirection = UICollectionViewScrollDirectionVertical;
     
     UICollectionView *collectionView = [[UICollectionView alloc]initWithFrame:CGRectMake(0, 0, 0, 0) collectionViewLayout:layout];
-    //    collectionView.showsHorizontalScrollIndicator = NO;
+        collectionView.showsHorizontalScrollIndicator = NO;
     collectionView.backgroundColor = [UIColor clearColor];
     //设置数据源和代理
     collectionView.dataSource = self;
     collectionView.delegate = self;
+    
+    collectionView.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
+            //进行数据刷新操作
+        
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            [collectionView.mj_header endRefreshing];
+        });
+        }];
+    
+    
     
     //注册
     [collectionView registerClass:[SmallVideoCell class] forCellWithReuseIdentifier:SmallVideoCellIdentifier];

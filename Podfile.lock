@@ -36,6 +36,7 @@ PODS:
     - GCDWebServer/Core
   - JLRoutes (2.1)
   - Masonry (1.1.0)
+  - MJRefresh (3.7.2)
   - RTRootNavigationController (0.8.0):
     - RTRootNavigationController/Core (= 0.8.0)
   - RTRootNavigationController/Core (0.8.0)
@@ -46,6 +47,7 @@ DEPENDENCIES:
   - DoraemonKit
   - JLRoutes
   - Masonry
+  - MJRefresh
   - RTRootNavigationController (~> 0.8.0)
 
 SPEC REPOS:
@@ -58,6 +60,7 @@ SPEC REPOS:
     - GCDWebServer
     - JLRoutes
     - Masonry
+    - MJRefresh
     - RTRootNavigationController
 
 SPEC CHECKSUMS:
@@ -69,8 +72,9 @@ SPEC CHECKSUMS:
   GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
   JLRoutes: d755245322b94227662ea3e43492fdca94e05c5b
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 30997d30b347c8e9508a4db11e3a690da0c9b85a
   RTRootNavigationController: 36c6301870f0467f89d69f4286795340b537d473
 
-PODFILE CHECKSUM: 3cb13aa526030bbec0e38e6f03a1e6a9ee8097aa
+PODFILE CHECKSUM: 3f12515ce5133cc1dc226bcceea86c5043b8b0e7
 
 COCOAPODS: 1.10.1

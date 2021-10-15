@@ -17,6 +17,8 @@ target 'SassFramework' do
   pod 'AvoidCrash', '~> 2.5.2'
   pod 'Bugly', '~> 2.5.90'
   
+  pod 'MJRefresh'
+  
   
 
   target 'SassFrameworkTests' do

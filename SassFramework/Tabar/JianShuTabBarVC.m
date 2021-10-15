@@ -44,6 +44,8 @@
         AxcAE_TabBarConfigModel *model = [AxcAE_TabBarConfigModel new];
         // 3.item基础数据三连
         model.itemTitle = [obj objectForKey:@"itemTitle"];
+        
+        
         model.selectImageName = [obj objectForKey:@"selectImg"];
         model.normalImageName = [obj objectForKey:@"normalImg"];
         // 4.设置单个选中item标题状态下的颜色

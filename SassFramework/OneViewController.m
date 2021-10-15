@@ -18,9 +18,15 @@
     
     self.view.backgroundColor = UIColor.yellowColor;
     
+//    - (void)setNavBackgroundColor:(UIColor *)color alpha:(CGFloat)alpha;
+//    [self setNavBackgroundColor:UIColor.clearColor alpha:0.5];
+    
     
 
+
 }
+
+
 
 /*
 #pragma mark - Navigation
