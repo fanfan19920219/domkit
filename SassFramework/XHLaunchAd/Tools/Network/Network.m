@@ -7,6 +7,7 @@
 //  代码地址:https://github.com/CoderZhuXH/XHLaunchAd
 //  数据请求类
 #import "Network.h"
+#import "YTKNetwork.h"
 
 @implementation Network
 
@@ -20,7 +21,7 @@
         NSData *JSONData = [NSData dataWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"LaunchImageAd" ofType:@"json"]];
         NSDictionary *json =  [NSJSONSerialization JSONObjectWithData:JSONData options:NSJSONReadingAllowFragments error:nil];
         if(success) success(json);
-
+        
     });
 }
 /**

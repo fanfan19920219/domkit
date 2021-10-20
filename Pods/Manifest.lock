@@ -40,6 +40,8 @@ PODS:
   - RTRootNavigationController (0.8.0):
     - RTRootNavigationController/Core (= 0.8.0)
   - RTRootNavigationController/Core (0.8.0)
+  - YTKNetwork (3.0.6):
+    - AFNetworking/NSURLSession (~> 4.0)
 
 DEPENDENCIES:
   - AvoidCrash (~> 2.5.2)
@@ -49,6 +51,7 @@ DEPENDENCIES:
   - Masonry
   - MJRefresh
   - RTRootNavigationController (~> 0.8.0)
+  - YTKNetwork (~> 3.0.6)
 
 SPEC REPOS:
   trunk:
@@ -62,6 +65,7 @@ SPEC REPOS:
     - Masonry
     - MJRefresh
     - RTRootNavigationController
+    - YTKNetwork
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
@@ -74,7 +78,8 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: 30997d30b347c8e9508a4db11e3a690da0c9b85a
   RTRootNavigationController: 36c6301870f0467f89d69f4286795340b537d473
+  YTKNetwork: c16be90b06be003de9e9cd0d3b187cc8eaf35c04
 
-PODFILE CHECKSUM: 3f12515ce5133cc1dc226bcceea86c5043b8b0e7
+PODFILE CHECKSUM: 446902f611816a53d130823d252b4b41fb5ab875
 
 COCOAPODS: 1.10.1

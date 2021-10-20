@@ -312,6 +312,7 @@
 		DCCB366E2718342E009E7B1E /* UIView+EasyFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB366C2718342E009E7B1E /* UIView+EasyFrame.m */; };
 		DCCB3671271841CA009E7B1E /* UrlManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB3670271841CA009E7B1E /* UrlManager.m */; };
 		DCCB367427184423009E7B1E /* AppDelegate+config.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB367327184423009E7B1E /* AppDelegate+config.m */; };
+		DCCCE0D527196981003D2C19 /* HTNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCCE0D427196981003D2C19 /* HTNetwork.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -956,6 +957,8 @@
 		DCCB3670271841CA009E7B1E /* UrlManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UrlManager.m; sourceTree = "<group>"; };
 		DCCB367227184423009E7B1E /* AppDelegate+config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+config.h"; sourceTree = "<group>"; };
 		DCCB367327184423009E7B1E /* AppDelegate+config.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+config.m"; sourceTree = "<group>"; };
+		DCCCE0D327196981003D2C19 /* HTNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTNetwork.h; sourceTree = "<group>"; };
+		DCCCE0D427196981003D2C19 /* HTNetwork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTNetwork.m; sourceTree = "<group>"; };
 		E163AB61F5D45B0D1DD60A07 /* Pods_SassFramework_SassFrameworkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SassFramework_SassFrameworkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -1180,6 +1183,7 @@
 		DCCB32E72717FF9D009E7B1E /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				DCCCE0D22719695A003D2C19 /* HTNetwork */,
 				DCCB32E82717FF9D009E7B1E /* Network */,
 				DCCB32EB2717FF9D009E7B1E /* UIViewController+ */,
 			);
@@ -2226,6 +2230,15 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		DCCCE0D22719695A003D2C19 /* HTNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				DCCCE0D327196981003D2C19 /* HTNetwork.h */,
+				DCCCE0D427196981003D2C19 /* HTNetwork.m */,
+			);
+			path = HTNetwork;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2553,6 +2566,7 @@
 				DCCB35FC271833DA009E7B1E /* RACKVOProxy.m in Sources */,
 				DCCB32AC2717FDA4009E7B1E /* XHLaunchAdConst.m in Sources */,
 				DCCB35B5271833DA009E7B1E /* HTTPConnection.m in Sources */,
+				DCCCE0D527196981003D2C19 /* HTNetwork.m in Sources */,
 				DCCB35C9271833DA009E7B1E /* RACSignal.m in Sources */,
 				DCCB3668271833DA009E7B1E /* SmallVideoListViewController.m in Sources */,
 				DCCB35CE271833DA009E7B1E /* NSEnumerator+RACSequenceAdditions.m in Sources */,

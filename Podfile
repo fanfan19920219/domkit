@@ -18,9 +18,10 @@ target 'SassFramework' do
   pod 'Bugly', '~> 2.5.90'
   
   pod 'MJRefresh'
+#猿题库
+  pod 'YTKNetwork', '~> 3.0.6'
   
   
-
   target 'SassFrameworkTests' do
     inherit! :search_paths
     # Pods for testing
