@@ -18,7 +18,7 @@
 #import "ViewController.h"
 #import "JLRoutes.h"
 #import "JianShuTabBarVC.h"
-
+#import "AppDelegate+HQ.h"
 @interface AppDelegate ()
 
 @end
@@ -28,11 +28,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.backgroundColor = [UIColor whiteColor];
-
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[JianShuTabBarVC alloc]init]];
-    [self.window makeKeyAndVisible];
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    self.window.backgroundColor = [UIColor whiteColor];
+//
+//    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[JianShuTabBarVC alloc]init]];
+//    [self.window makeKeyAndVisible];
     
 #ifdef DEBUG
     [[DoraemonManager shareInstance] addH5DoorBlock:^(NSString *h5Url) {
@@ -45,6 +45,8 @@
     //初始化avoidCrash
     [self registAvoidCrash];
     
+    
+    [self registerRoutes];
     
 //    [[JLRoutes globalRoutes] addRoute:@"取url内容值的标识" handler:^BOOL(NSDictionary<NSString *,id> * _Nonnull parameters) {
 //
