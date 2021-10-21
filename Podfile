@@ -20,6 +20,8 @@ target 'SassFramework' do
   pod 'MJRefresh'
 #猿题库
   pod 'YTKNetwork', '~> 3.0.6'
+#  闪验SDK
+#  pod 'CL_ShanYanSDK', '~> 2.3.4.9'
   
   
   target 'SassFrameworkTests' do

@@ -10,6 +10,8 @@
 		4AC8521B5236AB731ED2C3AE /* Pods_SassFramework_SassFrameworkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E163AB61F5D45B0D1DD60A07 /* Pods_SassFramework_SassFrameworkUITests.framework */; };
 		865BA5A6ED1F5CDF52F09AE5 /* Pods_SassFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DCCF3C32A8A208974B25C09 /* Pods_SassFramework.framework */; };
 		D74D82D438A98EFD469ADA3F /* Pods_SassFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C1061D1F5F396C7367C3DE /* Pods_SassFrameworkTests.framework */; };
+		DCC345EF272160E800055B64 /* HQNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC345EE272160E700055B64 /* HQNavigationController.m */; };
+		DCC345F22721611900055B64 /* HQNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC345F12721611900055B64 /* HQNavBar.m */; };
 		DCCB32562717BF45009E7B1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB32552717BF45009E7B1E /* AppDelegate.m */; };
 		DCCB325C2717BF45009E7B1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB325B2717BF45009E7B1E /* ViewController.m */; };
 		DCCB325F2717BF45009E7B1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCB325D2717BF45009E7B1E /* Main.storyboard */; };
@@ -344,6 +346,10 @@
 		BF65E682554D7FD74059DD4E /* Pods-SassFramework-SassFrameworkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SassFramework-SassFrameworkUITests.debug.xcconfig"; path = "Target Support Files/Pods-SassFramework-SassFrameworkUITests/Pods-SassFramework-SassFrameworkUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C56523F7C42F328C4261B89D /* Pods-SassFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SassFramework.release.xcconfig"; path = "Target Support Files/Pods-SassFramework/Pods-SassFramework.release.xcconfig"; sourceTree = "<group>"; };
 		D5DB7335512F2C8DE70D819B /* Pods-SassFramework-SassFrameworkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SassFramework-SassFrameworkUITests.release.xcconfig"; path = "Target Support Files/Pods-SassFramework-SassFrameworkUITests/Pods-SassFramework-SassFrameworkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DCC345ED272160E700055B64 /* HQNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQNavigationController.h; sourceTree = "<group>"; };
+		DCC345EE272160E700055B64 /* HQNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQNavigationController.m; sourceTree = "<group>"; };
+		DCC345F02721611900055B64 /* HQNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQNavBar.h; sourceTree = "<group>"; };
+		DCC345F12721611900055B64 /* HQNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQNavBar.m; sourceTree = "<group>"; };
 		DCCB32512717BF45009E7B1E /* SassFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SassFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCCB32542717BF45009E7B1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DCCB32552717BF45009E7B1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1068,8 +1074,6 @@
 				DCCB367327184423009E7B1E /* AppDelegate+config.m */,
 				DCCF7ED927201789005CD0FE /* AppDelegate+HQ.h */,
 				DCCF7EDA27201789005CD0FE /* AppDelegate+HQ.m */,
-				DCCF7EDC272017BD005CD0FE /* HQTabBarController.h */,
-				DCCF7EDD272017BD005CD0FE /* HQTabBarController.m */,
 				DCCB325A2717BF45009E7B1E /* ViewController.h */,
 				DCCB325B2717BF45009E7B1E /* ViewController.m */,
 				DCCB33B1271823CA009E7B1E /* FourViewController.h */,
@@ -1484,6 +1488,12 @@
 		DCCB3364271814F8009E7B1E /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				DCCF7EDC272017BD005CD0FE /* HQTabBarController.h */,
+				DCCF7EDD272017BD005CD0FE /* HQTabBarController.m */,
+				DCC345ED272160E700055B64 /* HQNavigationController.h */,
+				DCC345EE272160E700055B64 /* HQNavigationController.m */,
+				DCC345F02721611900055B64 /* HQNavBar.h */,
+				DCC345F12721611900055B64 /* HQNavBar.m */,
 				DCCB3365271814F8009E7B1E /* BaseNavBarItem.m */,
 				DCCB3366271814F8009E7B1E /* BaseTableViewController.m */,
 				DCCB3367271814F8009E7B1E /* BaseViewController.m */,
@@ -2569,6 +2579,7 @@
 				DCCB35E8271833DA009E7B1E /* RACArraySequence.m in Sources */,
 				DCCB3595271833D9009E7B1E /* KTVHCPathTool.m in Sources */,
 				DCCB35BD271833DA009E7B1E /* DDRange.m in Sources */,
+				DCC345EF272160E800055B64 /* HQNavigationController.m in Sources */,
 				DCCB338F2718157A009E7B1E /* UIImage+Extension.m in Sources */,
 				DCCB3610271833DA009E7B1E /* NSObject+RACLifting.m in Sources */,
 				DCCB364C271833DA009E7B1E /* SDWebImageManager.m in Sources */,
@@ -2621,6 +2632,7 @@
 				DCCB32FF27181213009E7B1E /* JianShuTabBarVC.m in Sources */,
 				DCCB3667271833DA009E7B1E /* SmallVideoPlayViewController.mm in Sources */,
 				DCCB33552718123F009E7B1E /* ItemBackgroundImageTabBarVC.m in Sources */,
+				DCC345F22721611900055B64 /* HQNavBar.m in Sources */,
 				DCCB32B22717FDA4009E7B1E /* XHLaunchAdCache.m in Sources */,
 				DCCB35F8271833DA009E7B1E /* NSObject+RACAppKitBindings.m in Sources */,
 				DCCB3599271833DA009E7B1E /* KTVHCHTTPServer.m in Sources */,

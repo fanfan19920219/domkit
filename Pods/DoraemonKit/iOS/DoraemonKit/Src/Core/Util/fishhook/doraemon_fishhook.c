@@ -119,7 +119,7 @@ static void doraemon_perform_rebinding_with_section(struct doraemon_rebindings_e
               indirect_symbol_bindings[i] != cur->rebindings[j].replacement) {
             *(cur->rebindings[j].replaced) = indirect_symbol_bindings[i];
           }
-          indirect_symbol_bindings[i] = cur->rebindings[j].replacement;
+//          indirect_symbol_bindings[i] = cur->rebindings[j].replacement;
           goto symbol_loop;
         }
       }

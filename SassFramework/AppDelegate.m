@@ -40,7 +40,6 @@
     }];
     [[DoraemonManager shareInstance] install];
 #endif
-
     
     //初始化avoidCrash
     [self registAvoidCrash];

@@ -9,7 +9,7 @@
 //
 
 #import "HQTabBarController.h"
-//#import "HQNavigationController.h"
+#import "HQNavigationController.h"
 #import "UIImage+HQGImage.h"
 
 
@@ -51,7 +51,7 @@
 - (void)addChildVC: (UIViewController *)vc title: (NSString *)title normalImageName: (NSString *)normalImageName selectedImageName:(NSString *)selectedImageName isRequiredNavController: (BOOL)isRequired {
     
     if (isRequired) {
-        RTRootNavigationController *nav = [[RTRootNavigationController alloc] initWithRootViewController:vc];
+        HQNavigationController *nav = [[HQNavigationController alloc] initWithRootViewController:vc];
         vc.title = title;
         nav.tabBarItem = [[UITabBarItem alloc] initWithTitle:title image:[UIImage originImageWithName:normalImageName] selectedImage:[UIImage originImageWithName:selectedImageName]];
         [self addChildViewController:nav];
