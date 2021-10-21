@@ -13,6 +13,7 @@
 
 @implementation ThreeViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -23,7 +24,7 @@
     pushButton.backgroundColor = UIColor.blackColor;
     [pushButton setTitle:@"push到下一个页面" forState:normal];
     [pushButton addTapActionWithBlock:^{
-        NSString *customURL = @"SassFramework://NaviPush/ThreeViewController?name=home&userId=99999&age=18&adbc=29";
+        NSString *customURL = @"SassFramework://NaviPush/MainListViewController?name=home&userId=99999&age=18&adbc=29";
         [[UIApplication sharedApplication]openURL:[NSURL URLWithString:customURL] options:@{UIApplicationOpenURLOptionsSourceApplicationKey : @YES} completionHandler:^(BOOL success) {
             
         }];
@@ -40,6 +41,9 @@
         [[UIApplication sharedApplication]openURL:[NSURL URLWithString:customURL] options:@{UIApplicationOpenURLOptionsSourceApplicationKey : @YES} completionHandler:nil];
     }];
     [self.view addSubview:presentButton];
+    
+    
+//    self.navigationController.navigationBar.hidden = YES;
     
 }
 

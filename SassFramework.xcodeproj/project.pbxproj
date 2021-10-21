@@ -12,6 +12,7 @@
 		D74D82D438A98EFD469ADA3F /* Pods_SassFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C1061D1F5F396C7367C3DE /* Pods_SassFrameworkTests.framework */; };
 		DCC345EF272160E800055B64 /* HQNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC345EE272160E700055B64 /* HQNavigationController.m */; };
 		DCC345F22721611900055B64 /* HQNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC345F12721611900055B64 /* HQNavBar.m */; };
+		DCC345F52721684B00055B64 /* MainListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC345F42721684B00055B64 /* MainListViewController.m */; };
 		DCCB32562717BF45009E7B1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB32552717BF45009E7B1E /* AppDelegate.m */; };
 		DCCB325C2717BF45009E7B1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB325B2717BF45009E7B1E /* ViewController.m */; };
 		DCCB325F2717BF45009E7B1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCB325D2717BF45009E7B1E /* Main.storyboard */; };
@@ -350,6 +351,8 @@
 		DCC345EE272160E700055B64 /* HQNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQNavigationController.m; sourceTree = "<group>"; };
 		DCC345F02721611900055B64 /* HQNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQNavBar.h; sourceTree = "<group>"; };
 		DCC345F12721611900055B64 /* HQNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQNavBar.m; sourceTree = "<group>"; };
+		DCC345F32721684B00055B64 /* MainListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainListViewController.h; sourceTree = "<group>"; };
+		DCC345F42721684B00055B64 /* MainListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainListViewController.m; sourceTree = "<group>"; };
 		DCCB32512717BF45009E7B1E /* SassFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SassFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCCB32542717BF45009E7B1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DCCB32552717BF45009E7B1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1070,10 +1073,6 @@
 				DCCB32892717FDA4009E7B1E /* XHLaunchAd */,
 				DCCB32542717BF45009E7B1E /* AppDelegate.h */,
 				DCCB32552717BF45009E7B1E /* AppDelegate.m */,
-				DCCB367227184423009E7B1E /* AppDelegate+config.h */,
-				DCCB367327184423009E7B1E /* AppDelegate+config.m */,
-				DCCF7ED927201789005CD0FE /* AppDelegate+HQ.h */,
-				DCCF7EDA27201789005CD0FE /* AppDelegate+HQ.m */,
 				DCCB325A2717BF45009E7B1E /* ViewController.h */,
 				DCCB325B2717BF45009E7B1E /* ViewController.m */,
 				DCCB33B1271823CA009E7B1E /* FourViewController.h */,
@@ -1084,6 +1083,8 @@
 				DCCB33AC271823B0009E7B1E /* TwoViewController.m */,
 				DCCB33A8271823A1009E7B1E /* OneViewController.h */,
 				DCCB33A9271823A1009E7B1E /* OneViewController.m */,
+				DCC345F32721684B00055B64 /* MainListViewController.h */,
+				DCC345F42721684B00055B64 /* MainListViewController.m */,
 				DCCB325D2717BF45009E7B1E /* Main.storyboard */,
 				DCCB32602717BF46009E7B1E /* Assets.xcassets */,
 				DCCB32622717BF46009E7B1E /* LaunchScreen.storyboard */,
@@ -1509,6 +1510,10 @@
 		DCCB33742718157A009E7B1E /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				DCCB367227184423009E7B1E /* AppDelegate+config.h */,
+				DCCB367327184423009E7B1E /* AppDelegate+config.m */,
+				DCCF7ED927201789005CD0FE /* AppDelegate+HQ.h */,
+				DCCF7EDA27201789005CD0FE /* AppDelegate+HQ.m */,
 				DCCF7EE0272018B5005CD0FE /* UIImage+HQGImage.h */,
 				DCCF7EDF272018B5005CD0FE /* UIImage+HQGImage.m */,
 				DCCB33752718157A009E7B1E /* UIButton+ContentLayout.m */,
@@ -2664,6 +2669,7 @@
 				DCCB3609271833DA009E7B1E /* UISlider+RACSignalSupport.m in Sources */,
 				DCCB3638271833DA009E7B1E /* NSArray+MASAdditions.m in Sources */,
 				DCCB3605271833DA009E7B1E /* NSSet+RACSequenceAdditions.m in Sources */,
+				DCC345F52721684B00055B64 /* MainListViewController.m in Sources */,
 				DCCB3636271833DA009E7B1E /* MASConstraintMaker.m in Sources */,
 				DCCB33572718123F009E7B1E /* MultipleBulgeHybridTabBarVC.m in Sources */,
 				DCCB35C3271833DA009E7B1E /* UIStepper+RACSignalSupport.m in Sources */,
