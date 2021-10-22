@@ -17,9 +17,33 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     [self.view addSubview:self.tableView];
+    
 }
+
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:YES];
+//    self.title = @"主页";
+    self.navigationController.navigationBar.hidden = YES;
+}
+
+
+
+-(void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:YES];
+    
+    
+    self.navigationController.navigationBar.hidden = NO;
+}
+
+
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    NSString *customURL = @"SassFramework://NaviPush/ChatViewController?name=home&userId=99999&age=18&adbc=29";
+    [[UIApplication sharedApplication]openURL:[NSURL URLWithString:customURL] options:@{UIApplicationOpenURLOptionsSourceApplicationKey : @YES} completionHandler:^(BOOL success) {
+    }];
+}
+
 
 
 -(UITableView*)tableView{

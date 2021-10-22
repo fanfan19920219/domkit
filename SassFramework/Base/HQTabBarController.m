@@ -52,7 +52,7 @@
     
     if (isRequired) {
         HQNavigationController *nav = [[HQNavigationController alloc] initWithRootViewController:vc];
-        vc.title = title;
+//        vc.title = title;
         nav.tabBarItem = [[UITabBarItem alloc] initWithTitle:title image:[UIImage originImageWithName:normalImageName] selectedImage:[UIImage originImageWithName:selectedImageName]];
         [self addChildViewController:nav];
     }else {

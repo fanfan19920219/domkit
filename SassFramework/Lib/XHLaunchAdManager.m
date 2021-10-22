@@ -165,9 +165,9 @@
     //图片填充模式
     imageAdconfiguration.contentMode = UIViewContentModeScaleAspectFill;
     //广告点击打开页面参数(openModel可为NSString,模型,字典等任意类型)
-    imageAdconfiguration.openModel = @"http://www.it7090.com";
+    imageAdconfiguration.openModel = @"http://www.hunteron.com/";
     //广告显示完成动画
-    imageAdconfiguration.showFinishAnimate =ShowFinishAnimateFlipFromLeft;
+    imageAdconfiguration.showFinishAnimate =ShowFinishAnimateFadein;
     //广告显示完成动画时间
     imageAdconfiguration.showFinishAnimateTime = 0.8;
     //跳过按钮类型

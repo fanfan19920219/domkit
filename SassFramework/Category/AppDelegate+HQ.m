@@ -11,14 +11,12 @@
 #import "AppDelegate+HQ.h"
 #import "JLRoutes.h"
 #import "HQTabBarController.h"
-//#import "HQNavigationController.h"
-//#import "HQHomeViewController.h"
-//#import "HQFindViewController.h"
-//#import "HQCircleFriendsViewController.h"
-//#import "HQAccountViewController.h"
 
 #import "ThreeViewController.h"
 #import "TwoViewController.h"
+#import "MainListViewController.h"
+#import "FoldTableViewController.h"
+#import "LXAlipayViewController.h"
 
 #import <objc/message.h>
 #import <objc/runtime.h>
@@ -29,10 +27,14 @@
     
     HQTabBarController *rootVC = [HQTabBarController  tabBarControllerWithAddChildVCsBlock:^(HQTabBarController *tabBarC) {
         
-        [tabBarC addChildVC:[ThreeViewController new] title:@"主页" normalImageName:@"tabar_zhuye2.png" selectedImageName:@"tabar_zhuye.png" isRequiredNavController:YES];
-        [tabBarC addChildVC:[ThreeViewController new] title:@"主页2" normalImageName:@"tabar_tuijian2.png" selectedImageName:@"tabar_tuijiani.png" isRequiredNavController:YES];
-        [tabBarC addChildVC:[TwoViewController new] title:@"中间按钮" normalImageName:@"tabar_suishoupai2.png" selectedImageName:@"tabar_suishoupai.png" isRequiredNavController:YES];
-        [tabBarC addChildVC:[ThreeViewController new] title:@"朋友" normalImageName:@"tabar_linxin2.png" selectedImageName:@"tabar_linxin.png" isRequiredNavController:YES];
+        [tabBarC addChildVC:[FoldTableViewController new] title:@"猎头聊天" normalImageName:@"tabar_linxin2.png"  selectedImageName:@"tabar_linxin.png" isRequiredNavController:YES];
+        
+        [tabBarC addChildVC:[LXAlipayViewController new] title:@"工作台" normalImageName:@"tabar_zhuye2.png" selectedImageName:@"tabar_zhuye.png" isRequiredNavController:YES];
+        
+        
+//        [tabBarC addChildVC:[ThreeViewController new] title:@"主页2" normalImageName:@"tabar_tuijian2.png" selectedImageName:@"tabar_tuijiani.png" isRequiredNavController:YES];
+        [tabBarC addChildVC:[TwoViewController new] title:@"通讯录" normalImageName:@"tabar_suishoupai2.png" selectedImageName:@"tabar_suishoupai.png" isRequiredNavController:YES];
+       
         [tabBarC addChildVC:[ThreeViewController new] title:@"我的" normalImageName:@"tabar_geren2.png" selectedImageName:@"tabar_geren.png" isRequiredNavController:YES];
         
     }];

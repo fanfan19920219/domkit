@@ -19,6 +19,7 @@
     
     self.view.backgroundColor = UIColor.whiteColor;
     
+    
     UIButton *pushButton  = [UIButton buttonWithType:UIButtonTypeCustom];
     pushButton.frame = CGRectMake(100, 100, 200, 30);
     pushButton.backgroundColor = UIColor.blackColor;
@@ -26,7 +27,6 @@
     [pushButton addTapActionWithBlock:^{
         NSString *customURL = @"SassFramework://NaviPush/MainListViewController?name=home&userId=99999&age=18&adbc=29";
         [[UIApplication sharedApplication]openURL:[NSURL URLWithString:customURL] options:@{UIApplicationOpenURLOptionsSourceApplicationKey : @YES} completionHandler:^(BOOL success) {
-            
         }];
     }];
     [self.view addSubview:pushButton];
@@ -38,15 +38,15 @@
     [presentButton setTitle:@"present到下一个页面" forState:normal];
     [presentButton addTapActionWithBlock:^{
         NSString *customURL = @"SassFramework://PresentModal/SmallVideoListViewController?name=home&userId=99999&age=18&adbc=29";
-        [[UIApplication sharedApplication]openURL:[NSURL URLWithString:customURL] options:@{UIApplicationOpenURLOptionsSourceApplicationKey : @YES} completionHandler:nil];
+        [[UIApplication sharedApplication]openURL:[NSURL URLWithString:customURL] options:@{UIApplicationOpenURLOptionsSourceApplicationKey : @YES} completionHandler:^(BOOL success) {
+//            self.navigationController.navigationBar.hidden = NO;
+        }];
     }];
     [self.view addSubview:presentButton];
     
-    
-//    self.navigationController.navigationBar.hidden = YES;
+    self.navigationController.navigationBar.hidden = YES;
     
 }
-
 
 
 -(void)pushVC:(UIButton*)sender{
@@ -60,14 +60,14 @@
     {
         [super viewWillAppear:animated];
         // white.png图片自己下载个纯白色的色块，或者自己ps做一个
-        [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"nav_bg@3x"] forBarMetrics:UIBarMetricsDefault];
-        [self.navigationController.navigationBar setShadowImage:[UIImage new]];
+//        [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"nav_bg@3x"] forBarMetrics:UIBarMetricsDefault];
+//        [self.navigationController.navigationBar setShadowImage:[UIImage new]];
         
     }
 - (void)viewWillDisappear:(BOOL)animated{
     
     [super viewWillDisappear:animated];
-    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"nav_bg"] forBarMetrics:UIBarMetricsDefault];
+//    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"nav_bg"] forBarMetrics:UIBarMetricsDefault];
 }
 
 
