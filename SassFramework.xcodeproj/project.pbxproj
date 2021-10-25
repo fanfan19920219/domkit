@@ -390,6 +390,10 @@
 		DCCF7EDB27201789005CD0FE /* AppDelegate+HQ.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCF7EDA27201789005CD0FE /* AppDelegate+HQ.m */; };
 		DCCF7EDE272017BD005CD0FE /* HQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCF7EDD272017BD005CD0FE /* HQTabBarController.m */; };
 		DCCF7EE1272018B5005CD0FE /* UIImage+HQGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCF7EDF272018B5005CD0FE /* UIImage+HQGImage.m */; };
+		DCF6793927267DEF0041584B /* LRFourPingTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF6793327267DEE0041584B /* LRFourPingTransition.m */; };
+		DCF6793A27267DEF0041584B /* LRTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF6793627267DEF0041584B /* LRTextField.m */; };
+		DCF6793B27267DEF0041584B /* LRLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF6793727267DEF0041584B /* LRLoginViewController.m */; };
+		DCF6793C27267DEF0041584B /* LRButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF6793827267DEF0041584B /* LRButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1141,6 +1145,14 @@
 		DCCF7EDD272017BD005CD0FE /* HQTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQTabBarController.m; sourceTree = "<group>"; };
 		DCCF7EDF272018B5005CD0FE /* UIImage+HQGImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HQGImage.m"; sourceTree = "<group>"; };
 		DCCF7EE0272018B5005CD0FE /* UIImage+HQGImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HQGImage.h"; sourceTree = "<group>"; };
+		DCF6793127267DEE0041584B /* LRButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRButton.h; sourceTree = "<group>"; };
+		DCF6793227267DEE0041584B /* LRFourPingTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRFourPingTransition.h; sourceTree = "<group>"; };
+		DCF6793327267DEE0041584B /* LRFourPingTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRFourPingTransition.m; sourceTree = "<group>"; };
+		DCF6793427267DEE0041584B /* LRTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRTextField.h; sourceTree = "<group>"; };
+		DCF6793527267DEF0041584B /* LRLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRLoginViewController.h; sourceTree = "<group>"; };
+		DCF6793627267DEF0041584B /* LRTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRTextField.m; sourceTree = "<group>"; };
+		DCF6793727267DEF0041584B /* LRLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRLoginViewController.m; sourceTree = "<group>"; };
+		DCF6793827267DEF0041584B /* LRButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRButton.m; sourceTree = "<group>"; };
 		E163AB61F5D45B0D1DD60A07 /* Pods_SassFramework_SassFrameworkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SassFramework_SassFrameworkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -1388,6 +1400,7 @@
 				DC9E182427224F870098C6C3 /* FriendCell.xib */,
 				DC9E182527224F870098C6C3 /* GroupModel.h */,
 				DC9E182327224F860098C6C3 /* GroupModel.m */,
+				DCF6793027267DCA0041584B /* Login */,
 				DCCB325D2717BF45009E7B1E /* Main.storyboard */,
 				DCCB32602717BF46009E7B1E /* Assets.xcassets */,
 				DCCB32622717BF46009E7B1E /* LaunchScreen.storyboard */,
@@ -2574,6 +2587,21 @@
 			path = HTNetwork;
 			sourceTree = "<group>";
 		};
+		DCF6793027267DCA0041584B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				DCF6793127267DEE0041584B /* LRButton.h */,
+				DCF6793827267DEF0041584B /* LRButton.m */,
+				DCF6793227267DEE0041584B /* LRFourPingTransition.h */,
+				DCF6793327267DEE0041584B /* LRFourPingTransition.m */,
+				DCF6793527267DEF0041584B /* LRLoginViewController.h */,
+				DCF6793727267DEF0041584B /* LRLoginViewController.m */,
+				DCF6793427267DEE0041584B /* LRTextField.h */,
+				DCF6793627267DEF0041584B /* LRTextField.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2943,6 +2971,7 @@
 				DCCB3595271833D9009E7B1E /* KTVHCPathTool.m in Sources */,
 				DCCB35BD271833DA009E7B1E /* DDRange.m in Sources */,
 				DCC345EF272160E800055B64 /* HQNavigationController.m in Sources */,
+				DCF6793B27267DEF0041584B /* LRLoginViewController.m in Sources */,
 				DCCB338F2718157A009E7B1E /* UIImage+Extension.m in Sources */,
 				DCCB3610271833DA009E7B1E /* NSObject+RACLifting.m in Sources */,
 				DC9E184127228F4C0098C6C3 /* GridButton.m in Sources */,
@@ -2994,6 +3023,7 @@
 				DCCB35F5271833DA009E7B1E /* RACDynamicSignal.m in Sources */,
 				DCCB325C2717BF45009E7B1E /* ViewController.m in Sources */,
 				DCCB35F3271833DA009E7B1E /* RACEvent.m in Sources */,
+				DCF6793927267DEF0041584B /* LRFourPingTransition.m in Sources */,
 				DCCB32FF27181213009E7B1E /* JianShuTabBarVC.m in Sources */,
 				DCCB3667271833DA009E7B1E /* SmallVideoPlayViewController.mm in Sources */,
 				DCCB33552718123F009E7B1E /* ItemBackgroundImageTabBarVC.m in Sources */,
@@ -3128,6 +3158,7 @@
 				DCCB32A92717FDA4009E7B1E /* XHLaunchAdView.m in Sources */,
 				DCCB32AD2717FDA4009E7B1E /* XHLaunchAd.m in Sources */,
 				DCCB35A9271833DA009E7B1E /* KTVHCLog.m in Sources */,
+				DCF6793A27267DEF0041584B /* LRTextField.m in Sources */,
 				DCCB362B271833DA009E7B1E /* ASValuePopUpView.m in Sources */,
 				DCCB33912718157A009E7B1E /* UIColor+Extension.m in Sources */,
 				DCCB3619271833DA009E7B1E /* RACCommand.m in Sources */,
@@ -3142,6 +3173,7 @@
 				DCCB365C271833DA009E7B1E /* UIButton+WebCache.m in Sources */,
 				DCCB35F2271833DA009E7B1E /* UIDatePicker+RACSignalSupport.m in Sources */,
 				DCCB363F271833DA009E7B1E /* IQTitleBarButtonItem.m in Sources */,
+				DCF6793C27267DEF0041584B /* LRButton.m in Sources */,
 				DCCB35D5271833DA009E7B1E /* MKAnnotationView+RACSignalSupport.m in Sources */,
 				DCCB3622271833DA009E7B1E /* UITabBarController+ZFPlayerRotation.m in Sources */,
 				DCCB3607271833DA009E7B1E /* UIRefreshControl+RACCommandSupport.m in Sources */,

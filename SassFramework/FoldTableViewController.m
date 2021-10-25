@@ -177,10 +177,14 @@ char* const buttonKey = "buttonKey";
 //    NSDictionary *friendInfoDic = groupModel.groupFriends[indexPath.row];
 //    NSLog(@"%@ %@",friendInfoDic[@"name"],friendInfoDic[@"shuoshuo"]);
    
-    NSString *customURL = @"SassFramework://NaviPush/ChatViewController?name=home&userId=99999&age=18&adbc=29";
+//    NSString *customURL = @"SassFramework://NaviPush/ChatViewController?name=home&userId=99999&age=18&adbc=29";
+//    [[UIApplication sharedApplication]openURL:[NSURL URLWithString:customURL] options:@{UIApplicationOpenURLOptionsSourceApplicationKey : @YES} completionHandler:^(BOOL success) {
+//    }];
+    
+    
+    NSString *customURL = @"SassFramework://PresentModal/LRLoginViewController?name=home&userId=99999&age=18&adbc=29";
     [[UIApplication sharedApplication]openURL:[NSURL URLWithString:customURL] options:@{UIApplicationOpenURLOptionsSourceApplicationKey : @YES} completionHandler:^(BOOL success) {
     }];
-    
     
     
 }

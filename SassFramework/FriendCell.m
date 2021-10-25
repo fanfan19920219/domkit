@@ -6,7 +6,6 @@
 //
 //  Created by 郑文明 on 16/1/8.
 //  Copyright © 2016年 郑文明. All rights reserved.
-//
 
 #import "FriendCell.h"
 
@@ -14,6 +13,7 @@
 
 - (void)awakeFromNib {
     // Initialization code
+    [super awakeFromNib];
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

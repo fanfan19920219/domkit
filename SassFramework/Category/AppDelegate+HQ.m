@@ -17,6 +17,7 @@
 #import "MainListViewController.h"
 #import "FoldTableViewController.h"
 #import "LXAlipayViewController.h"
+#import "LRLoginViewController.h"
 
 #import <objc/message.h>
 #import <objc/runtime.h>
@@ -44,6 +45,12 @@
     self.window.rootViewController = rootVC;
     [self.window makeKeyAndVisible];
     
+    LRLoginViewController* loginVC =   [LRLoginViewController new];
+    loginVC.modalPresentationStyle =UIModalPresentationFullScreen;
+    [self.window.rootViewController presentViewController:loginVC animated:NO completion:^{
+
+    }];
+    
     // navigation Push规则
     [[JLRoutes globalRoutes] addRoute:@"/NaviPush/:controller" handler:^BOOL(NSDictionary<NSString *,NSString *> * _Nonnull parameters) {
         
@@ -60,10 +67,14 @@
         
         NSLog(@"parameters==%@",parameters);
         UIViewController *v = [[NSClassFromString(parameters[@"controller"]) alloc] init];
+        v.modalPresentationStyle = UIModalPresentationFullScreen;
         [self paramToVc:v param:parameters];
         [[self currentViewController].visibleViewController presentViewController:v animated:YES completion:^{}];
         return YES;
     }];
+    
+    
+    
 }
     
 -(void)paramToVc:(UIViewController *) v param:(NSDictionary<NSString *,NSString *> *)parameters{

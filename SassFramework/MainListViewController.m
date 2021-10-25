@@ -32,16 +32,24 @@
 -(void)viewWillDisappear:(BOOL)animated{
     [super viewWillDisappear:YES];
     
-    
     self.navigationController.navigationBar.hidden = NO;
 }
 
 
-
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    NSString *customURL = @"SassFramework://NaviPush/ChatViewController?name=home&userId=99999&age=18&adbc=29";
+//    NSString *customURL = @"SassFramework://NaviPush/ChatViewController?name=home&userId=99999&age=18&adbc=29";
+//    [[UIApplication sharedApplication]openURL:[NSURL URLWithString:customURL] options:@{UIApplicationOpenURLOptionsSourceApplicationKey : @YES} completionHandler:^(BOOL success) {
+//    }];
+    
+    //LRLoginViewController
+    NSString *customURL = @"SassFramework://PresentModal/LRLoginViewController?name=home&userId=99999&age=18&adbc=29";
     [[UIApplication sharedApplication]openURL:[NSURL URLWithString:customURL] options:@{UIApplicationOpenURLOptionsSourceApplicationKey : @YES} completionHandler:^(BOOL success) {
     }];
+    
+    
+    
+    
+    
 }
 
 

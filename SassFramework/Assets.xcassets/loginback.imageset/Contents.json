@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "src=http___attach.bbs.miui.com_forum_201609_09_150112nkr6iotkktzki6di.png&refer=http___attach.bbs.miui.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
