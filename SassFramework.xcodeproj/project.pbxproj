@@ -394,6 +394,10 @@
 		DCF6793A27267DEF0041584B /* LRTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF6793627267DEF0041584B /* LRTextField.m */; };
 		DCF6793B27267DEF0041584B /* LRLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF6793727267DEF0041584B /* LRLoginViewController.m */; };
 		DCF6793C27267DEF0041584B /* LRButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF6793827267DEF0041584B /* LRButton.m */; };
+		DCF6793F2726C23F0041584B /* PersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF6793E2726C23F0041584B /* PersonalViewController.m */; };
+		DCF679432726C2C80041584B /* WavesView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF679412726C2C70041584B /* WavesView.m */; };
+		DCF679482726C32E0041584B /* UIColor+LX.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF679452726C32E0041584B /* UIColor+LX.m */; };
+		DCF679492726C32E0041584B /* UIImage+LX.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF679472726C32E0041584B /* UIImage+LX.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1153,6 +1157,14 @@
 		DCF6793627267DEF0041584B /* LRTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRTextField.m; sourceTree = "<group>"; };
 		DCF6793727267DEF0041584B /* LRLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRLoginViewController.m; sourceTree = "<group>"; };
 		DCF6793827267DEF0041584B /* LRButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRButton.m; sourceTree = "<group>"; };
+		DCF6793D2726C23F0041584B /* PersonalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalViewController.h; sourceTree = "<group>"; };
+		DCF6793E2726C23F0041584B /* PersonalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalViewController.m; sourceTree = "<group>"; };
+		DCF679412726C2C70041584B /* WavesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WavesView.m; sourceTree = "<group>"; };
+		DCF679422726C2C70041584B /* WavesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WavesView.h; sourceTree = "<group>"; };
+		DCF679442726C32E0041584B /* UIImage+LX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LX.h"; sourceTree = "<group>"; };
+		DCF679452726C32E0041584B /* UIColor+LX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LX.m"; sourceTree = "<group>"; };
+		DCF679462726C32E0041584B /* UIColor+LX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LX.h"; sourceTree = "<group>"; };
+		DCF679472726C32E0041584B /* UIImage+LX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LX.m"; sourceTree = "<group>"; };
 		E163AB61F5D45B0D1DD60A07 /* Pods_SassFramework_SassFrameworkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SassFramework_SassFrameworkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -1375,8 +1387,9 @@
 				DCCB32892717FDA4009E7B1E /* XHLaunchAd */,
 				DC9E17ED27224DC30098C6C3 /* JXYChatView */,
 				DC9E183827228F0A0098C6C3 /* GridView */,
-				DCCB32542717BF45009E7B1E /* AppDelegate.h */,
+				DCF679402726C2C70041584B /* WaveView */,
 				DCCB32552717BF45009E7B1E /* AppDelegate.m */,
+				DCCB32542717BF45009E7B1E /* AppDelegate.h */,
 				DCCB325A2717BF45009E7B1E /* ViewController.h */,
 				DCCB325B2717BF45009E7B1E /* ViewController.m */,
 				DCCB33B1271823CA009E7B1E /* FourViewController.h */,
@@ -1395,6 +1408,8 @@
 				DC9E181E27224F650098C6C3 /* FoldTableViewController.m */,
 				DC9E183D27228F200098C6C3 /* LXAlipayViewController.h */,
 				DC9E183C27228F200098C6C3 /* LXAlipayViewController.m */,
+				DCF6793D2726C23F0041584B /* PersonalViewController.h */,
+				DCF6793E2726C23F0041584B /* PersonalViewController.m */,
 				DC9E182127224F860098C6C3 /* FriendCell.h */,
 				DC9E182227224F860098C6C3 /* FriendCell.m */,
 				DC9E182427224F870098C6C3 /* FriendCell.xib */,
@@ -1826,6 +1841,10 @@
 		DCCB33742718157A009E7B1E /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				DCF679462726C32E0041584B /* UIColor+LX.h */,
+				DCF679452726C32E0041584B /* UIColor+LX.m */,
+				DCF679442726C32E0041584B /* UIImage+LX.h */,
+				DCF679472726C32E0041584B /* UIImage+LX.m */,
 				DC9E1849272292C30098C6C3 /* UIColor+Expanded.h */,
 				DC9E1848272292C30098C6C3 /* UIColor+Expanded.m */,
 				DC9E1845272292930098C6C3 /* UIView+Frame.h */,
@@ -2602,6 +2621,15 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		DCF679402726C2C70041584B /* WaveView */ = {
+			isa = PBXGroup;
+			children = (
+				DCF679412726C2C70041584B /* WavesView.m */,
+				DCF679422726C2C70041584B /* WavesView.h */,
+			);
+			path = WaveView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2926,6 +2954,7 @@
 				DCCB35B0271833DA009E7B1E /* HTTPFileResponse.m in Sources */,
 				DCCB33AA271823A1009E7B1E /* OneViewController.m in Sources */,
 				DCCB35AB271833DA009E7B1E /* KTVHCError.m in Sources */,
+				DCF679482726C32E0041584B /* UIColor+LX.m in Sources */,
 				DCCB3628271833DA009E7B1E /* UIViewController+ZFPlayerRotation.m in Sources */,
 				DCCB35F9271833DA009E7B1E /* NSArray+RACSequenceAdditions.m in Sources */,
 				DCCB365A271833DA009E7B1E /* UIView+WebCacheOperation.m in Sources */,
@@ -3035,6 +3064,7 @@
 				DCCB334D2718123F009E7B1E /* ItemTingColorTabBarVC.m in Sources */,
 				DCCB3627271833DA009E7B1E /* UINavigationController+ZFPlayerRotation.m in Sources */,
 				DCCB32E12717FEA4009E7B1E /* XHLaunchAdManager.m in Sources */,
+				DCF679432726C2C80041584B /* WavesView.m in Sources */,
 				DCCB334A2718123F009E7B1E /* WHGradientHelperGradientTabBarVC.m in Sources */,
 				DCCB361C271833DA009E7B1E /* RACTuple.m in Sources */,
 				DCCB35E4271833DA009E7B1E /* RACReplaySubject.m in Sources */,
@@ -3052,6 +3082,7 @@
 				DC9E181027224DC40098C6C3 /* ChatBaseViewCell.m in Sources */,
 				DCCB35C0271833DA009E7B1E /* KTVHTTPCache.m in Sources */,
 				DCCB3662271833DA009E7B1E /* SmallVideoCell.m in Sources */,
+				DCF6793F2726C23F0041584B /* PersonalViewController.m in Sources */,
 				DCCB3671271841CA009E7B1E /* UrlManager.m in Sources */,
 				DCCB362C271833DA009E7B1E /* ZFPlayerControlView.m in Sources */,
 				DCCB334B2718123F009E7B1E /* WHGradientHelperGradientTabBarVC4.m in Sources */,
@@ -3210,6 +3241,7 @@
 				DCCB3372271814F8009E7B1E /* BaseNavigationController.m in Sources */,
 				DCCB35A7271833DA009E7B1E /* KTVHCDataLoader.m in Sources */,
 				DCCB35A5271833DA009E7B1E /* KTVHCDataCacheItem.m in Sources */,
+				DCF679492726C32E0041584B /* UIImage+LX.m in Sources */,
 				DCCB35DA271833DA009E7B1E /* RACEmptySequence.m in Sources */,
 				DCCB32672717BF46009E7B1E /* main.m in Sources */,
 				DCCB3631271833DA009E7B1E /* ASValueTrackingSlider.m in Sources */,

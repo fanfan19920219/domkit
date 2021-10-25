@@ -18,6 +18,8 @@
 #import "FoldTableViewController.h"
 #import "LXAlipayViewController.h"
 #import "LRLoginViewController.h"
+#import "PersonalViewController.h"
+
 
 #import <objc/message.h>
 #import <objc/runtime.h>
@@ -32,11 +34,10 @@
         
         [tabBarC addChildVC:[LXAlipayViewController new] title:@"工作台" normalImageName:@"tabar_zhuye2.png" selectedImageName:@"tabar_zhuye.png" isRequiredNavController:YES];
         
-        
 //        [tabBarC addChildVC:[ThreeViewController new] title:@"主页2" normalImageName:@"tabar_tuijian2.png" selectedImageName:@"tabar_tuijiani.png" isRequiredNavController:YES];
         [tabBarC addChildVC:[TwoViewController new] title:@"通讯录" normalImageName:@"tabar_suishoupai2.png" selectedImageName:@"tabar_suishoupai.png" isRequiredNavController:YES];
-       
-        [tabBarC addChildVC:[ThreeViewController new] title:@"我的" normalImageName:@"tabar_geren2.png" selectedImageName:@"tabar_geren.png" isRequiredNavController:YES];
+        
+        [tabBarC addChildVC:[PersonalViewController new] title:@"我的" normalImageName:@"tabar_geren2.png" selectedImageName:@"tabar_geren.png" isRequiredNavController:YES];
         
     }];
     

@@ -59,7 +59,7 @@
 #pragma mark---懒加载---
 - (NSMutableArray *)showGridTitleArray {
     if(_showGridTitleArray == nil) {
-        _showGridTitleArray = [NSMutableArray arrayWithObjects:@"收银台",@"结算",@"分享", @"T+0", @"中心",@"D+1", @"商店",@"P2P", @"开通", @"充值", @"转账", @"扫码", @"记录" , @"快捷支付", @"明细", @"收款",@"更多", nil];
+        _showGridTitleArray = [NSMutableArray arrayWithObjects:@"人才",@"职位",@"订单", @"客户", @"合同",@"发票", @"业绩",@"应用市场",@"更多", nil];
     }
     return _showGridTitleArray;
 }
@@ -69,9 +69,7 @@
         _showImageGridArray = [NSMutableArray arrayWithObjects:
                                @"more_icon_Transaction_flow",@"more_icon_cancle_deal", @"more_icon_Search",
                                @"more_icon_t0",@"more_icon_shouyin" ,@"more_icon_d1",
-                               @"more_icon_Settlement",@"more_icon_Mall", @"more_icon_gift",
-                               @"more_icon_licai",@"more_icon_-transfer",@"more_icon_Recharge" ,
-                               @"more_icon_Transfer-" , @"more_icon_Credit-card-",@"more_icon_Manager",@"work-order",@"add_businesses", nil];
+                               @"more_icon_Settlement",@"more_icon_Mall", @"more_icon_gift", nil];
         ;
     }
     return _showImageGridArray;
