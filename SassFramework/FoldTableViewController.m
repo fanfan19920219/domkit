@@ -34,29 +34,29 @@ char* const buttonKey = "buttonKey";
     NSDictionary *JSONDic =@{@"group":
   @[
   @{@"groupName":@"猎头",@"groupCount":@"3",@"groupArray":@[
-                                        @{@"name":@"小明",@"avatarURL":@"",@"shuoshuo":@"作业又没写好,唉！",@"status":@"1"},
-                                        @{@"name":@"小红",@"avatarURL":@"",@"shuoshuo":@"考试不要抄我的！",@"status":@"1"},
-                                        @{@"name":@"小王",@"avatarURL":@"",@"shuoshuo":@"马勒戈壁有本事放学别走！",@"status":@"0"}
+                                        @{@"name":@"小明",@"avatarURL":@"head1",@"shuoshuo":@"作业又没写好,唉！",@"status":@"1"},
+                                        @{@"name":@"小红",@"avatarURL":@"head2",@"shuoshuo":@"考试不要抄我的！",@"status":@"1"},
+                                        @{@"name":@"小王",@"avatarURL":@"head3",@"shuoshuo":@"马勒戈壁有本事放学别走！",@"status":@"0"}
                                         ]},
   @{@"groupName":@"BD",@"groupCount":@"5",@"groupArray":
                                         @[
-                                        @{@"name":@"王二小",@"avatarURL":@"",@"shuoshuo":@"我家来自农村，不要欺负我",@"status":@"1"},
-                                        @{@"name":@"王麻子",@"avatarURL":@"",@"shuoshuo":@"历史咯老师真漂亮！",@"status":@"1"},
-                                        @{@"name":@"吴道德",@"avatarURL":@"",@"shuoshuo":@"我姓吴，法号道德",@"status":@"1"},
-                                        @{@"name":@"张丝丹",@"avatarURL":@"",@"shuoshuo":@"我小名叫四蛋子，哈哈",@"status":@"0"},
-                                        @{@"name":@"赵铁柱",@"avatarURL":@"",@"shuoshuo":@"我喜欢小花",@"status":@"0"}
+                                        @{@"name":@"王二小",@"avatarURL":@"head1",@"shuoshuo":@"我家来自农村，不要欺负我",@"status":@"1"},
+                                        @{@"name":@"王麻子",@"avatarURL":@"head2",@"shuoshuo":@"历史咯老师真漂亮！",@"status":@"1"},
+                                        @{@"name":@"吴道德",@"avatarURL":@"head3",@"shuoshuo":@"我姓吴，法号道德",@"status":@"1"},
+                                        @{@"name":@"张丝丹",@"avatarURL":@"head4",@"shuoshuo":@"我小名叫四蛋子，哈哈",@"status":@"0"},
+                                        @{@"name":@"赵铁柱",@"avatarURL":@"head5",@"shuoshuo":@"我喜欢小花",@"status":@"0"}
                                         ]},
   @{@"groupName":@"PA",@"groupCount":@"3",@"groupArray":
                                         @[
-                                        @{@"name":@"刘阿猫",@"avatarURL":@"",@"shuoshuo":@"我操，高考又到了",@"status":@"1"},
-                                        @{@"name":@"静静",@"avatarURL":@"",@"shuoshuo":@"大家好，我是静静。",@"status":@"1"},
-                                        @{@"name":@"隔壁老王",@"avatarURL":@"",@"shuoshuo":@"小样你是新来的吧！",@"status":@"0"}
+                                        @{@"name":@"刘阿猫",@"avatarURL":@"head1",@"shuoshuo":@"我操，高考又到了",@"status":@"1"},
+                                        @{@"name":@"静静",@"avatarURL":@"head2",@"shuoshuo":@"大家好，我是静静。",@"status":@"1"},
+                                        @{@"name":@"隔壁老王",@"avatarURL":@"head3",@"shuoshuo":@"小样你是新来的吧！",@"status":@"0"}
                                         ]},
   @{@"groupName":@"面试者",@"groupCount":@"4",@"groupArray":
                                         @[
-                                        @{@"name":@"IOS",@"avatarURL":@"",@"shuoshuo":@"Swift",@"status":@"1"},
-                                        @{@"name":@"Andriod",@"avatarURL":@"",@"shuoshuo":@"kotlin",@"status":@"1"},
-                                        @{@"name":@"Web",@"avatarURL":@"",@"shuoshuo":@"JavaScript",@"status":@"0"}]},
+                                        @{@"name":@"IOS",@"avatarURL":@"head1",@"shuoshuo":@"Swift",@"status":@"1"},
+                                        @{@"name":@"Andriod",@"avatarURL":@"head2",@"shuoshuo":@"kotlin",@"status":@"1"},
+                                        @{@"name":@"Web",@"avatarURL":@"head3",@"shuoshuo":@"JavaScript",@"status":@"0"}]},
   ]
   };
     
@@ -103,7 +103,10 @@ char* const buttonKey = "buttonKey";
     FriendCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
     GroupModel *groupModel = dataSource[indexPath.section];
     NSDictionary *friendInfoDic = groupModel.groupFriends[indexPath.row];
-    cell.nameLabel.text = friendInfoDic[@"name"];
+    cell.nameLabel.text = friendInfoDic[@"name"];//avatarURL
+//    cell.UIImageView.image = [UIImage imageNamed:@"''"];
+    cell.avatarIV.image = [UIImage imageNamed:friendInfoDic[@"avatarURL"]];
+    
     
     if ([friendInfoDic[@"status"] isEqualToString:@"1"]) {
         cell.statusLabel.textColor = [UIColor greenColor];
@@ -121,7 +124,7 @@ char* const buttonKey = "buttonKey";
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
 {
     UIView *sectionView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 44)];
-    sectionView.backgroundColor = [UIColor colorWithWhite:0.9 alpha:0.8];
+    sectionView.backgroundColor = UIColor.whiteColor;
     GroupModel *groupModel = dataSource[section];
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -133,6 +136,7 @@ char* const buttonKey = "buttonKey";
     [button addTarget:self action:@selector(buttonPress:) forControlEvents:UIControlEventTouchUpInside];
     [sectionView addSubview:button];
     UIImageView *line = [[UIImageView alloc]initWithFrame:CGRectMake(0, button.frame.size.height-1, button.frame.size.width, 1)];
+    line.alpha = 0.5;
     [line setImage:[UIImage imageNamed:@"line_real"]];
     [sectionView addSubview:line];
     if (groupModel.isOpened) {
@@ -155,6 +159,7 @@ char* const buttonKey = "buttonKey";
 
     
     UILabel *numberLabel = [[UILabel alloc]initWithFrame:CGRectMake(self.view.frame.size.width-40, (44-20)/2, 40, 20)];
+    numberLabel.textColor = UIColor.lightGrayColor;
     [numberLabel setBackgroundColor:[UIColor clearColor]];
     [numberLabel setFont:[UIFont systemFontOfSize:14]];
     NSInteger onLineCount = 0;
@@ -163,6 +168,7 @@ char* const buttonKey = "buttonKey";
             onLineCount++;
         }
     }
+    
     [numberLabel setText:[NSString stringWithFormat:@"%ld/%ld",onLineCount,groupModel.groupCount]];
     [sectionView addSubview:numberLabel];
     
@@ -177,14 +183,10 @@ char* const buttonKey = "buttonKey";
 //    NSDictionary *friendInfoDic = groupModel.groupFriends[indexPath.row];
 //    NSLog(@"%@ %@",friendInfoDic[@"name"],friendInfoDic[@"shuoshuo"]);
    
-//    NSString *customURL = @"SassFramework://NaviPush/ChatViewController?name=home&userId=99999&age=18&adbc=29";
-//    [[UIApplication sharedApplication]openURL:[NSURL URLWithString:customURL] options:@{UIApplicationOpenURLOptionsSourceApplicationKey : @YES} completionHandler:^(BOOL success) {
-//    }];
-    
-    
-    NSString *customURL = @"SassFramework://PresentModal/LRLoginViewController?name=home&userId=99999&age=18&adbc=29";
+    NSString *customURL = @"SassFramework://NaviPush/ChatViewController?name=home&userId=99999&age=18&adbc=29";
     [[UIApplication sharedApplication]openURL:[NSURL URLWithString:customURL] options:@{UIApplicationOpenURLOptionsSourceApplicationKey : @YES} completionHandler:^(BOOL success) {
     }];
+    
     
     
 }
@@ -193,7 +195,6 @@ char* const buttonKey = "buttonKey";
 {
     GroupModel *groupModel = dataSource[sender.tag];
     UIImageView *imageView =  objc_getAssociatedObject(sender,buttonKey);
-    
     
     if (groupModel.isOpened) {
             [UIView animateWithDuration:0.3 delay:0.0 options:UIViewAnimationOptionTransitionNone animations:^{
