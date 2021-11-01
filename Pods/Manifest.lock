@@ -37,6 +37,7 @@ PODS:
   - JLRoutes (2.1)
   - Masonry (1.1.0)
   - MJRefresh (3.7.2)
+  - ReactiveObjC (3.1.1)
   - RTRootNavigationController (0.8.0):
     - RTRootNavigationController/Core (= 0.8.0)
   - RTRootNavigationController/Core (0.8.0)
@@ -50,6 +51,7 @@ DEPENDENCIES:
   - JLRoutes
   - Masonry
   - MJRefresh
+  - ReactiveObjC (~> 3.1.0)
   - RTRootNavigationController (~> 0.8.0)
   - YTKNetwork (~> 3.0.6)
 
@@ -64,6 +66,7 @@ SPEC REPOS:
     - JLRoutes
     - Masonry
     - MJRefresh
+    - ReactiveObjC
     - RTRootNavigationController
     - YTKNetwork
 
@@ -77,9 +80,10 @@ SPEC CHECKSUMS:
   JLRoutes: d755245322b94227662ea3e43492fdca94e05c5b
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: 30997d30b347c8e9508a4db11e3a690da0c9b85a
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   RTRootNavigationController: 36c6301870f0467f89d69f4286795340b537d473
   YTKNetwork: c16be90b06be003de9e9cd0d3b187cc8eaf35c04
 
-PODFILE CHECKSUM: ffc20964079ceaa98aad1d02df2c33062ae72fd1
+PODFILE CHECKSUM: 4aeae8494abf0edacda4df044d9d694857b2575c
 
 COCOAPODS: 1.10.1

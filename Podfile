@@ -17,6 +17,8 @@ target 'SassFramework' do
   pod 'AvoidCrash', '~> 2.5.2'
   pod 'Bugly', '~> 2.5.90'
   
+  pod 'ReactiveObjC', '~> 3.1.0'
+  
   pod 'MJRefresh'
 #猿题库
   pod 'YTKNetwork', '~> 3.0.6'

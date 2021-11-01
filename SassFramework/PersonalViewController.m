@@ -40,7 +40,7 @@
 
 - (NSArray *)titleArray {
     if (!_titleArray) {
-        _titleArray = @[@"我发布的招工", @"介绍", @"实名认证", @"设置"];
+        _titleArray = @[@"个人资料", @"账号密码", @"手机绑定", @"设置"];
     }
     return _titleArray;
 }

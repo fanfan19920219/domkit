@@ -80,8 +80,9 @@
     [self.view addSubview:login];
  
     login.translateBlock = ^{
-        [self dismissViewControllerAnimated:YES completion:^{
+        [self dismissViewControllerAnimated:NO completion:^{
             //在这里发送登录成功的消息通知
+            
         }];
     };
 }

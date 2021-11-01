@@ -82,6 +82,8 @@
 		DC9E189A272296AB0098C6C3 /* more_icon_-transfer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC9E1871272296AA0098C6C3 /* more_icon_-transfer@2x.png */; };
 		DC9E189B272296AB0098C6C3 /* more_icon_Settlement@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC9E1872272296AB0098C6C3 /* more_icon_Settlement@2x.png */; };
 		DC9E189C272296AB0098C6C3 /* more_icon_Search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC9E1873272296AB0098C6C3 /* more_icon_Search@2x.png */; };
+		DCC023F3272BDBA400256B06 /* TwoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC023F2272BDBA400256B06 /* TwoViewModel.m */; };
+		DCC023F6272BF97600256B06 /* DateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC023F5272BF97600256B06 /* DateModel.m */; };
 		DCC345EF272160E800055B64 /* HQNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC345EE272160E700055B64 /* HQNavigationController.m */; };
 		DCC345F22721611900055B64 /* HQNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC345F12721611900055B64 /* HQNavBar.m */; };
 		DCC345F52721684B00055B64 /* MainListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC345F42721684B00055B64 /* MainListViewController.m */; };
@@ -521,6 +523,10 @@
 		DC9E1871272296AA0098C6C3 /* more_icon_-transfer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more_icon_-transfer@2x.png"; sourceTree = "<group>"; };
 		DC9E1872272296AB0098C6C3 /* more_icon_Settlement@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more_icon_Settlement@2x.png"; sourceTree = "<group>"; };
 		DC9E1873272296AB0098C6C3 /* more_icon_Search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more_icon_Search@2x.png"; sourceTree = "<group>"; };
+		DCC023F1272BDBA400256B06 /* TwoViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewModel.h; sourceTree = "<group>"; };
+		DCC023F2272BDBA400256B06 /* TwoViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewModel.m; sourceTree = "<group>"; };
+		DCC023F4272BF97600256B06 /* DateModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateModel.h; sourceTree = "<group>"; };
+		DCC023F5272BF97600256B06 /* DateModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateModel.m; sourceTree = "<group>"; };
 		DCC345ED272160E700055B64 /* HQNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQNavigationController.h; sourceTree = "<group>"; };
 		DCC345EE272160E700055B64 /* HQNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQNavigationController.m; sourceTree = "<group>"; };
 		DCC345F02721611900055B64 /* HQNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQNavBar.h; sourceTree = "<group>"; };
@@ -1344,6 +1350,19 @@
 			path = GridView;
 			sourceTree = "<group>";
 		};
+		DCC023F0272BD9FA00256B06 /* two */ = {
+			isa = PBXGroup;
+			children = (
+				DCCB33AB271823B0009E7B1E /* TwoViewController.h */,
+				DCCB33AC271823B0009E7B1E /* TwoViewController.m */,
+				DCC023F1272BDBA400256B06 /* TwoViewModel.h */,
+				DCC023F2272BDBA400256B06 /* TwoViewModel.m */,
+				DCC023F4272BF97600256B06 /* DateModel.h */,
+				DCC023F5272BF97600256B06 /* DateModel.m */,
+			);
+			path = two;
+			sourceTree = "<group>";
+		};
 		DCCB32482717BF45009E7B1E = {
 			isa = PBXGroup;
 			children = (
@@ -1396,8 +1415,7 @@
 				DCCB33B2271823CA009E7B1E /* FourViewController.m */,
 				DCCB33AE271823BB009E7B1E /* ThreeViewController.h */,
 				DCCB33AF271823BB009E7B1E /* ThreeViewController.m */,
-				DCCB33AB271823B0009E7B1E /* TwoViewController.h */,
-				DCCB33AC271823B0009E7B1E /* TwoViewController.m */,
+				DCC023F0272BD9FA00256B06 /* two */,
 				DCCB33A8271823A1009E7B1E /* OneViewController.h */,
 				DCCB33A9271823A1009E7B1E /* OneViewController.m */,
 				DCC345F32721684B00055B64 /* MainListViewController.h */,
@@ -3079,6 +3097,7 @@
 				DC9E181D27224E020098C6C3 /* ChatViewController.m in Sources */,
 				DCCB35D1271833DA009E7B1E /* RACStream.m in Sources */,
 				DCCB3663271833DA009E7B1E /* CommentsPopView.m in Sources */,
+				DCC023F6272BF97600256B06 /* DateModel.m in Sources */,
 				DC9E181027224DC40098C6C3 /* ChatBaseViewCell.m in Sources */,
 				DCCB35C0271833DA009E7B1E /* KTVHTTPCache.m in Sources */,
 				DCCB3662271833DA009E7B1E /* SmallVideoCell.m in Sources */,
@@ -3138,6 +3157,7 @@
 				DCCB35EA271833DA009E7B1E /* RACKVOChannel.m in Sources */,
 				DCCB35D9271833DA009E7B1E /* RACUnarySequence.m in Sources */,
 				DCCB35A6271833DA009E7B1E /* KTVHCDataUnitQueue.m in Sources */,
+				DCC023F3272BDBA400256B06 /* TwoViewModel.m in Sources */,
 				DCCB35FD271833DA009E7B1E /* UISegmentedControl+RACSignalSupport.m in Sources */,
 				DCCB35B8271833DA009E7B1E /* MultipartFormDataParser.m in Sources */,
 				DCCB35EE271833DA009E7B1E /* RACMulticastConnection.m in Sources */,
@@ -3357,7 +3377,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -3411,7 +3431,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
