@@ -70,6 +70,7 @@ char* const buttonKey = "buttonKey";
     }
 }
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
     self.title = @"猎头聊天";
     self.view.backgroundColor = [UIColor whiteColor];

@@ -9,7 +9,7 @@
 #import "TwoViewModel.h"
 #import "DateModel.h"
 
-@interface TwoViewController ()<UITableViewDelegate,UITableViewDataSource>
+@interface TwoViewController ()
 
 @property (nonatomic, strong)TwoViewModel *viewModel;//管理网络请求和数据绑定等
 @property (nonatomic, assign)NSInteger rowNumber;
@@ -25,7 +25,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.rowNumber = 10;
-    
     //初始化UI
     [self configUI];
 
@@ -40,16 +39,15 @@
     
     __weak typeof(self) weakSelf = self;
     [self.centerButton addTapActionWithBlock:^{
-        
         [weakSelf initNetwork];
-        
+    }];
+    
+    [self.viewModel.btnClickSingnal subscribeNext:^(id  _Nullable x) {
+        NSLog(@"x信号     %@",x);
+
     }];
     
 }
-
-
-
-
 
 -(void)initNetwork{
     // 发送请求
@@ -60,49 +58,7 @@
 //            [[UIApplication sharedApplication]openURL:[NSURL URLWithString:customURL] options:@{UIApplicationOpenURLOptionsSourceApplicationKey : @YES} completionHandler:nil];
         [self.view addSubview:self.tableview];
     }];
-    
-    
 }
-
-
-
-//tableview 的代理方法
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return  self.viewModel.datamodel.count;
-}
-
-// Row display. Implementers should *always* try to reuse cells by setting each cell's reuseIdentifier and querying for available reusable cells with dequeueReusableCellWithIdentifier:
-// Cell gets various attributes set automatically based on table (separators) and data source (accessory views, editing controls)
-
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    NSString *cellid = @"cellid";
-    
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellid];
-    
-    if(cell==nil){
-        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellid];
-        cell.textLabel.text = @"我是cell";
-    }
-    return  cell;
-}
-
--(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 -(TwoViewModel*)viewModel{
     if(!_viewModel){
@@ -114,15 +70,11 @@
 -(UITableView*)tableview{
     if(!_tableview){
         _tableview = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
-        _tableview.delegate = self;
-        _tableview.dataSource = self;
+        _tableview.delegate = self.viewModel;
+        _tableview.dataSource = self.viewModel;
     }
     return  _tableview;
 }
-
-
-
-
 
 
 @end
