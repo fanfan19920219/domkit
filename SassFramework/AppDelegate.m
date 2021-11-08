@@ -51,20 +51,6 @@
 //
 //        return YES; // 一旦匹配，立即返回 YES
 //    }];
-    
-    
-    if (@available(iOS 15.0, *)) {
-           UINavigationBar *navigationBar = [UINavigationBar appearance];
-           
-           UINavigationBarAppearance *scrollEdgeAppearance = [[UINavigationBarAppearance alloc] init];
-           scrollEdgeAppearance.backgroundColor = UIColor.whiteColor;
-           navigationBar.scrollEdgeAppearance = scrollEdgeAppearance;
-//
-//           UINavigationBarAppearance *standardAppearance = [[UINavigationBarAppearance alloc] init];
-//           standardAppearance.backgroundColor = UIColor.clearColor;
-//           navigationBar.standardAppearance = standardAppearance;
-       }
-    
     return YES;
 }
 

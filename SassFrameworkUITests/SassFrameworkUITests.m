@@ -30,9 +30,8 @@
     // UI tests must launch the application that they test.
     XCUIApplication *app = [[XCUIApplication alloc] init];
     [app launch];
-
-    // Use recording to get started writing UI tests.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    
 }
 
 - (void)testLaunchPerformance {
@@ -41,6 +40,8 @@
         [self measureWithMetrics:@[[[XCTApplicationLaunchMetric alloc] init]] block:^{
             [[[XCUIApplication alloc] init] launch];
         }];
+//        XCUIApplication *app = [[XCUIApplication alloc] init];
+//        [app.tables.otherElements[@"3/5"].buttons[@"BD"] tap];
     }
 }
 

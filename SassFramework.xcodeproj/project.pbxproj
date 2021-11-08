@@ -1264,13 +1264,13 @@
 			isa = PBXGroup;
 			children = (
 				DC9E180227224DC30098C6C3 /* JXYChatInputBox.h */,
-				DC9E180327224DC30098C6C3 /* JXYChatBarMoreViewCell.m */,
-				DC9E180427224DC30098C6C3 /* JXYChatBarMoreView.h */,
-				DC9E180527224DC30098C6C3 /* JXYChatOtherItemView.m */,
 				DC9E180627224DC30098C6C3 /* JXYChatInputBox.m */,
 				DC9E180727224DC30098C6C3 /* JXYChatOtherItemView.h */,
+				DC9E180527224DC30098C6C3 /* JXYChatOtherItemView.m */,
+				DC9E180427224DC30098C6C3 /* JXYChatBarMoreView.h */,
 				DC9E180827224DC30098C6C3 /* JXYChatBarMoreView.m */,
 				DC9E180927224DC30098C6C3 /* JXYChatBarMoreViewCell.h */,
+				DC9E180327224DC30098C6C3 /* JXYChatBarMoreViewCell.m */,
 			);
 			path = JXYChatInputBox;
 			sourceTree = "<group>";
@@ -1407,8 +1407,8 @@
 				DC9E17ED27224DC30098C6C3 /* JXYChatView */,
 				DC9E183827228F0A0098C6C3 /* GridView */,
 				DCF679402726C2C70041584B /* WaveView */,
-				DCCB32552717BF45009E7B1E /* AppDelegate.m */,
 				DCCB32542717BF45009E7B1E /* AppDelegate.h */,
+				DCCB32552717BF45009E7B1E /* AppDelegate.m */,
 				DCCB325A2717BF45009E7B1E /* ViewController.h */,
 				DCCB325B2717BF45009E7B1E /* ViewController.m */,
 				DCCB33B1271823CA009E7B1E /* FourViewController.h */,
@@ -3455,6 +3455,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -3485,6 +3486,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
